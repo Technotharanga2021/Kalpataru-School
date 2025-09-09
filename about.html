@@ -32,129 +32,221 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
     <!-- Navbar Start -->
-    <div class="container-fluid bg-light position-relative shadow">
-      <nav
-        class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5"
-      >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 shadow">
+      <div class="container-fluid">
+        <!-- Logo and Brand -->
         <a
-          href=""
+          href="index.html"
           class="navbar-brand font-weight-bold text-secondary"
-          style="font-size: 50px"
+          style="font-size: 2rem"
         >
-          <i class="flaticon-043-teddy-bear"></i>
-          <span class="text-primary">KidKinder</span>
+          <img
+            src="img/logo_full1- bg.png"
+            alt="KCS Logo"
+            class="img-fluid"
+            style="max-width: 300px"
+          />
+          <!-- <span class="text-primary ml-2">Kalpataru School</span> -->
         </a>
+
+        <!-- Mobile Toggler -->
         <button
-          type="button"
           class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- Navbar Links -->
         <div
           class="collapse navbar-collapse justify-content-between"
           id="navbarCollapse"
         >
-          <div class="navbar-nav font-weight-bold mx-auto py-0">
-            <a href="index.html" class="nav-item nav-link">Home</a>
-            <a href="about.html" class="nav-item nav-link active">About</a>
-            <a href="class.html" class="nav-item nav-link">Classes</a>
-            <a href="team.html" class="nav-item nav-link">Teachers</a>
-            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-            <div class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                >Pages</a
-              >
-              <div class="dropdown-menu rounded-0 m-0">
-                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                <a href="single.html" class="dropdown-item">Blog Detail</a>
-              </div>
-            </div>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
-          </div>
-          <a href="" class="btn btn-primary px-4">Join Class</a>
+          <ul class="navbar-nav mx-auto font-weight-bold">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link active">About KCS</a>
+            </li>
+            <li class="nav-item">
+              <a href="academics.html" class="nav-link">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a href="faculty.html" class="nav-link">Faculty</a>
+            </li>
+            <li class="nav-item">
+              <a href="fees.html" class="nav-link">Fee Structure</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="disclosure.html" class="nav-link">Public Disclosure</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+          <!-- <a href="admission.html" class="btn btn-primary px-4">Apply Now</a> -->
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+
     <!-- Navbar End -->
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary mb-5">
-      <div
-        class="d-flex flex-column align-items-center justify-content-center"
-        style="min-height: 400px"
-      >
-        <h3 class="display-3 font-weight-bold text-white">About Us</h3>
-        <div class="d-inline-flex text-white">
-          <p class="m-0"><a class="text-white" href="">Home</a></p>
-          <p class="m-0 px-2">/</p>
-          <p class="m-0">About Us</p>
-        </div>
+    <div class="container-fluid hero-about position-relative mb-5" style="background: url('img/aboutus.png') no-repeat ; background-size: cover; height: 450px;">
+      <div class="overlay">
+        <h1 class="display-3 font-weight-bold">About Us</h1>
       </div>
     </div>
+
     <!-- Header End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div
+      class="container-fluid py-5"
+      style="
+        background: linear-gradient(
+          to left,
+          rgba(254, 157, 1, 0.763),
+          rgba(254, 157, 1, 0.1)
+        );
+      "
+    >
       <div class="container">
         <div class="row align-items-center">
+          <!-- Image or Logo -->
           <div class="col-lg-5">
             <img
-              class="img-fluid rounded mb-5 mb-lg-0"
-              src="img/about-1.jpg"
-              alt=""
+              class="img-fluid rounded mb-4 mb-lg-0"
+              src="img/IMG_1750.JPG"
+              alt="Kalpataru Vidya Samsthe Emblem"
             />
           </div>
-          <div class="col-lg-7">
-            <p class="section-title pr-5">
-              <span class="pr-2">About Us</span>
-            </p>
-            <!-- <h1 class="mb-4">Best School For Your Kids</h1> -->
+
+          <!-- Text Content -->
+          <div class="col-lg-7 pt-3 pt-lg-0">
+            <h2>
+              <span class="pr-2" style="color: #ff9100">About the Trust</span>
+            </h2>
             <p>
-              The Kalpataru Vidya Samsthe(R), Tiptur was established in the year 1962, with a cherished desire of catering to the needs of the learning in and around Tiptur.
-              It is the product of the Vision and dynamism of its founding principal Shri. J R Mahalingaiah and the altruistic and munificent donations from the renowned Philanthropists 
-              like  Shri. Pallagatti Adavappa the founding President of the Kalpataru Vidya Samsthe. <br><br>
-              Kalpataru College, which came to light in 1962 with a meager strength of 277 students went on growing from strength to strength until 1982 
-              when it got bifurcated into Kalpataru Science College and Pallagatti Adavappa Arts and commerce College, for conveniences of administration.
+              The Kalpataru Vidya Samsthe (R), Tiptur, was officially registered
+              as an educational society on 30th December 1961 and began
+              operations in the academic year 1962–63. Established with the
+              vision and dynamism of its founding Principal, Shri J. R.
+              Mahalingaiah, and backed by the philanthropic generosity of Shri
+              Pallagatti C. Adavappa, the Samsthe was born from a deep
+              commitment to bring quality education to the learners of Tiptur
+              and its surrounding areas. Initially, classes were conducted in
+              the newly constructed Government Girls’ High School, with a modest
+              strength of around 270 students.
             </p>
-            <div class="row pt-2 pb-4">
-              <div class="col-6 col-md-4">
-                <img class="img-fluid rounded" src="img/about-2.jpg" alt="" />
-              </div>
-              <div class="col-6 col-md-8">
-                <ul class="list-inline m-0">
-                  <li class="py-2 border-top border-bottom">
-                    <i class="fa fa-check text-primary mr-3"></i>Labore eos amet
-                    dolor amet diam
-                  </li>
-                  <li class="py-2 border-bottom">
-                    <i class="fa fa-check text-primary mr-3"></i>Etsea et sit
-                    dolor amet ipsum
-                  </li>
-                  <li class="py-2 border-bottom">
-                    <i class="fa fa-check text-primary mr-3"></i>Diam dolor diam
-                    elitripsum vero.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a>
+            <p>
+              Under the stewardship of Shri J. R. Mahalingaiah, the institution
+              embarked on rapid development, including outreach to secure both
+              public and governmental support. Within just a few years, it
+              erected its own building on a sprawling 36-acre campus. Its first
+              batch achieved an impressive tenth rank in PUC, drawing widespread
+              recognition.
+            </p>
+            <!-- <a href="#" class="btn btn-primary mt-2 py-2 px-4">Learn More</a> -->
           </div>
         </div>
       </div>
     </div>
+
     <!-- About End -->
 
+    <section class="container-fluid py-5">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="text-center mb-5">
+          <h2 class="text-primary">Why KCS Stands Out</h2>
+          <p class="lead">
+            Discover the initiatives that shape our school and the principles
+            that drive excellence.
+          </p>
+        </div>
+
+        <!-- KCS Initiatives (Carousel or Grid) -->
+        <div class="row mb-5">
+          <!-- Example Item -->
+          <div class="col-md-4 text-center mb-4">
+            <img
+              src="img/IMG_3261.jpg"
+              alt="Debate Competition"
+              class="img-fluid rounded mb-3"
+            />
+            <h5>Inter-school Debate & Language Clubs</h5>
+            <p>
+              Our students excel in inter-school competitions like Kannada
+              debate and actively participate in drama and writing clubs.
+              :contentReference[oaicite:1]{index=1}
+            </p>
+          </div>
+          <!-- Add more initiative items like Skill-Based Education, SCI workshops, etc. -->
+        </div>
+
+        <!-- "Why KCS" Core Pillars -->
+        <div class="row">
+          <div class="col-md-2 text-center mb-4">
+            <h5>Right Curriculum</h5>
+            <p>
+              Holistic CBSE-based learning with a track record of 100% AISSE
+              results. :contentReference[oaicite:2]{index=2}
+            </p>
+          </div>
+          <div class="col-md-2 text-center mb-4">
+            <h5>Right Faculty</h5>
+            <p>
+              Dedicated and resourceful educators driving both academic and
+              personal growth. :contentReference[oaicite:3]{index=3}
+            </p>
+          </div>
+          <div class="col-md-2 text-center mb-4">
+            <h5>Right Environment</h5>
+            <p>
+              A nurturing and holistic campus fostering intellect, creativity,
+              and values. :contentReference[oaicite:4]{index=4}
+            </p>
+          </div>
+          <div class="col-md-2 text-center mb-4">
+            <h5>Right Approach</h5>
+            <p>
+              Balanced emphasis on academics, co-curriculars, counselling, and
+              life skills. :contentReference[oaicite:5]{index=5}
+            </p>
+          </div>
+          <div class="col-md-2 text-center mb-4">
+            <h5>Right Skills</h5>
+            <p>
+              Skill-based education, workshops on AI, robotics, memory
+              enhancement, and more. :contentReference[oaicite:6]{index=6}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Facilities Start -->
-    <div class="container-fluid pt-5">
+    <!-- <div class="container-fluid pt-5">
       <div class="container pb-3">
         <div class="row">
           <div class="col-lg-4 col-md-6 pb-1">
@@ -261,7 +353,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Facilities Start -->
 
     <!-- Team Start -->
@@ -408,147 +500,103 @@
     <!-- Team End -->
 
     <!-- Footer Start -->
-    <div
-      class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5"
-    >
-      <div class="row pt-5">
-        <div class="col-lg-3 col-md-6 mb-5">
-          <a
-            href=""
-            class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
-            style="font-size: 40px; line-height: 40px"
-          >
-            <i class="flaticon-043-teddy-bear"></i>
-            <span class="text-white">KidKinder</span>
-          </a>
-          <p>
-            Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea
-            dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr
-            stet diam duo eos rebum ipsum diam ipsum elitr.
-          </p>
-          <div class="d-flex justify-content-start mt-4">
-            <a
-              class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-              style="width: 38px; height: 38px"
-              href="#"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-              style="width: 38px; height: 38px"
-              href="#"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-              style="width: 38px; height: 38px"
-              href="#"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a
-              class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-              style="width: 38px; height: 38px"
-              href="#"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Get In Touch</h3>
-          <div class="d-flex">
-            <h4 class="fa fa-map-marker-alt text-primary"></h4>
-            <div class="pl-3">
-              <h5 class="text-white">Address</h5>
-              <p>123 Street, New York, USA</p>
-            </div>
-          </div>
-          <div class="d-flex">
-            <h4 class="fa fa-envelope text-primary"></h4>
-            <div class="pl-3">
-              <h5 class="text-white">Email</h5>
-              <p>info@example.com</p>
-            </div>
-          </div>
-          <div class="d-flex">
-            <h4 class="fa fa-phone-alt text-primary"></h4>
-            <div class="pl-3">
-              <h5 class="text-white">Phone</h5>
-              <p>+012 345 67890</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Quick Links</h3>
-          <div class="d-flex flex-column justify-content-start">
-            <a class="text-white mb-2" href="#"
-              ><i class="fa fa-angle-right mr-2"></i>Home</a
-            >
-            <a class="text-white mb-2" href="#"
-              ><i class="fa fa-angle-right mr-2"></i>About Us</a
-            >
-            <a class="text-white mb-2" href="#"
-              ><i class="fa fa-angle-right mr-2"></i>Our Classes</a
-            >
-            <a class="text-white mb-2" href="#"
-              ><i class="fa fa-angle-right mr-2"></i>Our Teachers</a
-            >
-            <a class="text-white mb-2" href="#"
-              ><i class="fa fa-angle-right mr-2"></i>Our Blog</a
-            >
-            <a class="text-white" href="#"
-              ><i class="fa fa-angle-right mr-2"></i>Contact Us</a
-            >
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Newsletter</h3>
-          <form action="">
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-control border-0 py-4"
-                placeholder="Your Name"
-                required="required"
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="email"
-                class="form-control border-0 py-4"
-                placeholder="Your Email"
-                required="required"
-              />
-            </div>
-            <div>
-              <button
-                class="btn btn-primary btn-block border-0 py-3"
-                type="submit"
-              >
-                Submit Now
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div
-        class="container-fluid pt-5"
-        style="border-top: 1px solid rgba(23, 162, 184, 0.2) ;"
-      >
-        <p class="m-0 text-center text-white">
-          &copy;
-          <a class="text-primary font-weight-bold" href="#">Your Site Name</a>.
-          All Rights Reserved.
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div class="row pt-5">
+      <div class="col-lg-3 col-md-6 mb-5 ">
+        <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 px-5"
+          style="font-size: 40px; line-height: 40px">
+          <img src="img/logo bg.png" width="100%" alt="">
+          <!-- <span class="text-white">KidKinder</span> -->
+           
 
-          <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-          Designed by
-          <a class="text-primary font-weight-bold" href="https://htmlcodex.com"
-            >HTML Codex</a
-          >
-          <br />Distributed By:
-          <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+        </a>
+        <p>
+          <img src="img/name.jpg" width="100%" alt="">
+          <!-- Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea
+          dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr
+          stet diam duo eos rebum ipsum diam ipsum elitr. -->
         </p>
+        <div class="d-flex justify-content-start mt-4">
+          <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px"
+            href="#"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px"
+            href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px"
+            href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px"
+            href="#"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+        <h3 class=" mb-4" style="color: #FF9100;">Contact Us</h3>
+        <div class="d-flex">
+          <h4 class="fa fa-map-marker-alt " style="color: #FF9100;"></h4>
+          <div class="pl-3">
+            <!-- <h5 class="" style="color: #FF9100;">Address</h5> -->
+            <p>Vidyanagar, B. H. Road,<br>
+            <strong>Tiptur-572201</strong><br>
+          Karnataka State, INDIA</p>
+          </div>
+        </div>
+        <div class="d-flex">
+          <h4 class="fa fa-envelope " style="color: #FF9100;"></h4>
+          <div class="pl-3">
+            <!-- <h5 class="text-white">Email</h5> -->
+            <p>info@example.com</p>
+          </div>
+        </div>
+        <div class="d-flex">
+          <h4 class="fa fa-phone-alt " style="color: #FF9100;"></h4>
+          <div class="pl-3">
+            <!-- <h5 class="text-white">Phone</h5> -->
+            <p>principal :+91 9008647062 <br>
+            Office :08134-253504</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+        <h3 class=" mb-4" style="color: #FF9100;">Quick Links</h3>
+        <div class="d-flex flex-column justify-content-start">
+          <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+          <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+          <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Academics</a>
+          <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Faculty</a>
+          <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Activities</a>
+          <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+        </div>
+      </div>
+      <!-- <div class="col-lg-3 col-md-6 mb-5">
+        <h3 class="text-primary mb-4">Newsletter</h3>
+        <form action="">
+          <div class="form-group">
+            <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control border-0 py-4" placeholder="Your Email" required="required" />
+          </div>
+          <div>
+            <button class="btn btn-primary btn-block border-0 py-3" type="submit">
+              Submit Now
+            </button>
+          </div>
+        </form>
+      </div> -->
     </div>
+    <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, 0.2) ;">
+      <p class="m-0 text-center text-white">
+        &copy;
+        <a class="text-primary font-weight-bold" href="#">Your Site Name</a>.
+        All Rights Reserved.
+
+        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+        Designed by
+        <a class="text-primary font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+        <br />Distributed By:
+        <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+      </p>
+    </div>
+  </div>
+  
     <!-- Footer End -->
 
     <!-- Back to Top -->
@@ -570,5 +618,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

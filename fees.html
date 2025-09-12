@@ -32,11 +32,16 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylek.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"/>
   </head>
 
   <body>
+    
     <!-- Navbar Start -->
   <div class="container-fluid bg-light position-relative shadow px-4">
   <nav class="navbar navbar-expand-lg navbar-light py-3">
@@ -54,143 +59,160 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ml-auto font-weight-bold text-center text-lg-left">
         <a href="index.html" class="nav-item nav-link ">Home</a>
-        <a href="about.html" class="nav-item nav-link">About KCS</a>
+        <a href="about.html" class="nav-item nav-link ">About KCS</a>
         <a href="class.html" class="nav-item nav-link">Academics</a>
         <a href="faculty.html" class="nav-item nav-link">Faculty</a>
-        <a href="fees.html" class="nav-item nav-link">Fee Structure</a>
+        <a href="fees.html" class="nav-item nav-link active">Fee Structure</a>
         <a href="gallery.html" class="nav-item nav-link">Gallery</a>
         <a href="disclosure.html" class="nav-item nav-link">Public Disclosure</a>
-        <a href="contact.html" class="nav-item nav-link active">Contact Us</a>
+        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
       </div>
     </div>
   </nav>
 </div>
-  <!-- Navbar End -->
-  
+
     <!-- Header Start -->
-    <div class="container-fluid mb-5" style="background-color: #FF9100;">
-      <div
-        class="d-flex flex-column align-items-center justify-content-center"
-        style="min-height: 400px"
-      >
-        <h3 class="display-3 font-weight-bold text-white">Contact Us</h3>
-        <div class="d-inline-flex text-white">
-        </div>
+    <div class="container-fluid hero-about position-relative  " style="background: url('img/aboutus.png') no-repeat ; background-size: cover; height: 450px;">
+      <div class="overlay">
+        <h1 class="display-3 font-weight-bold">Fees</h1>
       </div>
     </div>
     <!-- Header End -->
 
-    <!-- Contact Start -->
-    <div class="container-fluid pt-5">
-      <div class="container">
+    <div>
         <div class="text-center pb-2">
-            <h1 class="mb-4"></h1>
+          <h1 class="mb-4">Fees Structure for the Academic Year 2025-2026</h1>
         </div>
-        <div class="row">
-          <div class="col-lg-7 mb-5">
-            <div class="contact-form">
-              <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="Your Name"
-                    required="required"
-                    data-validation-required-message="Please enter your name"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="Your Email"
-                    required="required"
-                    data-validation-required-message="Please enter your email"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="subject"
-                    placeholder="Subject"
-                    required="required"
-                    data-validation-required-message="Please enter a subject"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
-                  <textarea
-                    class="form-control"
-                    rows="6"
-                    id="message"
-                    placeholder="Message"
-                    required="required"
-                    data-validation-required-message="Please enter your message"
-                  ></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div>
-                  <button
-                    class="btn btn-primary py-2 px-4"
-                    type="submit"
-                    id="sendMessageButton"
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="col-lg-5 mb-5">
-            <div class="d-flex">
-              <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center text-secondary rounded-circle"
-                style="width: 45px; height: 45px; background-color: #FF9100;" ></i>
-              <div class="pl-3">
-                <h5>Address</h5>
-                <p>Kalpataru Central School, <br> Vidyanagar, B. H. Road,<br>
-            Tiptur, Karnataka-572201,<br> INDIA</p>
-              </div>
-            </div>
-            <div class="d-flex">
-              <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center text-secondary rounded-circle"
-                style="width: 45px; height: 45px; background-color: #FF9100"></i>
-              <div class="pl-3">
-                <h5>Email</h5>
-                <p>info@example.com</p>
-              </div>
-            </div>
-            <div class="d-flex">
-              <i class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center text-secondary rounded-circle"
-                style="width: 45px; height: 45px; background-color: #FF9100"></i>
-              <div class="pl-3">
-                <h5>Phone</h5>
-                <p>Principal :+91 9008647062 <br>
-            Office :08134-253504</p>
-              </div>
-            </div>
-            <div class="d-flex">
-              <i class="far fa-clock d-inline-flex align-items-center justify-content-center text-secondary rounded-circle"
-                style="width: 45px; height: 45px; background-color: #FF9100"></i>
-              <div class="pl-3">
-                <h5>Opening Hours</h5>
-                <strong>Monday - Friday:</strong>
-                <p class="m-0">09:00 AM - 05:00 PM</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-    <!-- Contact End -->
+    
+    <div class="table justify-content-center text-center">
+        <table>
+            <tr>
+                <th>Sl.No</th>
+                <th>Class</th>
+                <th>Fee</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>I Std</td>
+                <td>&#8377;51,000/-</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>II Std</td>
+                <td>&#8377;45,000/-</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>III Std</td>
+                <td>&#8377;45,000/-</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>IV Std</td>
+                <td>&#8377;45,000/-</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>V Std</td>
+                <td>&#8377;45,000/-</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>VI Std</td>
+                <td>&#8377;45,000/-</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>VII Std</td>
+                <td>&#8377;45,000/-</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>VIII Std</td>
+                <td>&#8377;45,000/-</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>IX Std</td>
+                <td>&#8377;48,500/-</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>X Std</td>
+                <td>&#8377;48,500/-</td>
+            </tr>
+        </table>
+    </div>
 
+    <div>
+        <div class="text-center pb-2">
+          <h1 class="mb-4">Fees Structure for the Academic Year 2024-2025</h1>
+        </div>
+    </div>
+    
+    <div class="table justify-content-center">
+        <table>
+            <tr>
+                <th>Sl.No</th>
+                <th>Class</th>
+                <th>Fee</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>I Std</td>
+                <td>&#8377;46,000/-</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>II Std</td>
+                <td>&#8377;41,000/-</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>III Std</td>
+                <td>&#8377;41,000/-</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>IV Std</td>
+                <td>&#8377;41,000/-</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>V Std</td>
+                <td>&#8377;41,000/-</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>VI Std</td>
+                <td>&#8377;41,000/-</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>VII Std</td>
+                <td>&#8377;41,000/-</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>VIII Std</td>
+                <td>&#8377;42,000/-</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>IX Std</td>
+                <td>&#8377;44,000/-</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>X Std</td>
+                <td>&#8377;44,000/-</td>
+            </tr>
+        </table>
+    </div>
+    
     <!-- Footer Start -->
-  <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
     <div class="row pt-5">
       <div class="col-lg-3 col-md-6 mb-5 ">
         <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 px-5"
@@ -223,8 +245,9 @@
           <h4 class="fa fa-map-marker-alt " style="color: #FF9100;"></h4>
           <div class="pl-3">
             <!-- <h5 class="" style="color: #FF9100;">Address</h5> -->
-            <p>Kalpataru Central School, <br> Vidyanagar, B. H. Road,<br>
-            Tiptur, Karnataka-572201,<br> INDIA</p>
+            <p>Vidyanagar, B. H. Road,<br>
+            <strong>Tiptur-572201</strong><br>
+          Karnataka State, INDIA</p>
           </div>
         </div>
         <div class="d-flex">
@@ -238,7 +261,7 @@
           <h4 class="fa fa-phone-alt " style="color: #FF9100;"></h4>
           <div class="pl-3">
             <!-- <h5 class="text-white">Phone</h5> -->
-            <p>Principal :+91 9008647062 <br>
+            <p>principal :+91 9008647062 <br>
             Office :08134-253504</p>
           </div>
         </div>
@@ -279,8 +302,8 @@
       </p>
     </div>
   </div>
-  <!-- Footer End -->
-
+  
+    <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary p-3 back-to-top"
@@ -301,6 +324,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

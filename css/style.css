@@ -10004,3 +10004,157 @@ ul li {
   overflow: auto;
   height: 200px;
 }
+
+/*
+==============================
+Work Area CSS
+==============================
+*/
+#work {
+  padding-top: 100px;
+}
+
+.shorting-menu {
+  display: flex;
+  gap: 10px;
+  /* spacing between buttons */
+  overflow-x: auto;
+  /* allow horizontal scroll */
+  white-space: nowrap;
+  /* keep buttons in one row */
+  -webkit-overflow-scrolling: touch;
+  /* smooth scrolling on mobile */
+  padding: 12px 10px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+}
+
+/* Hide scrollbar (optional) */
+.shorting-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.shorting-menu::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.shorting-menu::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.shorting-menu .filter {
+  border: none;
+  background: #f4f4f4;
+  padding: 9px 24px;
+  text-transform: capitalize;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .4s;
+  border-radius: 30px;
+  color: #000;
+  flex-shrink: 0;
+  /* prevent shrinking */
+}
+
+.shorting-menu .filter.mixitup-control-active,
+.shorting-menu .filter:hover {
+  background: #ff2c57;
+  color: #fff;
+}
+
+
+
+.single-work {
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+}
+
+.single-work img {
+  width: 100%;
+}
+
+.single-work::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  width: 95%;
+  height: 93%;
+  background: #000000;
+  left: 14px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.single-work:hover::before {
+  top: 21px;
+  width: 88%;
+  height: 85%;
+  left: 21px;
+  opacity: .66;
+  visibility: visible;
+}
+
+.single-work .work-content {
+  position: absolute;
+  bottom: 20px;
+  width: 81%;
+  background: #ffffff;
+  left: 35px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.single-work .work-content h4 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.single-work .work-content ul li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.single-work:hover .work-content {
+  bottom: 35px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.single-work .popup-btn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  width: 45px;
+  text-align: center;
+  height: 45px;
+  line-height: 46px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 22px;
+  opacity: 0;
+  visibility: hidden;
+  border: 1px solid #ffffff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.single-work .popup-btn:hover {
+  background: #cc0066;
+  border-color: #cc0066;
+}
+
+.single-work:hover .popup-btn {
+  top: 36px;
+  opacity: 1;
+  visibility: visible;
+}

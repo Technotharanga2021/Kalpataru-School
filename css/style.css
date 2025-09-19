@@ -10158,3 +10158,36 @@ Work Area CSS
   opacity: 1;
   visibility: visible;
 }
+
+
+.swiper-slide {
+  display: flex;
+  height: auto;
+}
+
+.swiper-slide .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  height: 200px; /* or whatever fixed height */
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 25px;         /* default is ~44px */
+  height: 25px;
+  background-size: 18px 18px;
+  background-color: rgba(0, 0, 0, 0.1); /* optional */
+  border-radius: 50%;
+}
+
+/* Optional: Change arrow color */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px; /* default is 20-22px */
+  color: #FF9100;  /* or any other color */
+}

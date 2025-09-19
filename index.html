@@ -8,6 +8,9 @@
   <meta content="Free HTML Templates" name="keywords" />
   <meta content="Free HTML Templates" name="description" />
 
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
   <!-- Favicon -->
   <link href="img/logo1-removebg-preview.png" rel="icon" />
 
@@ -28,62 +31,42 @@
   <!-- Customized Bootstrap Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 
 <body>
   <!-- Navbar Start -->
   <div class="container-fluid bg-light position-relative shadow px-4">
-  <nav class="navbar navbar-expand-lg navbar-light py-3">
-    <!-- Logo -->
-    <a href="#" class="navbar-brand">
-      <img src="img/logo_full1- bg.png" alt="Logo" class="img-fluid" style="max-width: 300px;">
-    </a>
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <!-- Logo -->
+      <a href="#" class="navbar-brand">
+        <img src="img/logo_full1- bg.png" alt="Logo" class="img-fluid" style="max-width: 300px;">
+      </a>
 
-    <!-- Toggler for Mobile -->
-    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Toggler for Mobile -->
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Navbar Links -->
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <div class="navbar-nav ml-auto font-weight-bold text-center text-lg-left">
-        <a href="index.html" class="nav-item nav-link active">Home</a>
-        <a href="about.html" class="nav-item nav-link">About KCS</a>
-        <a href="academics.html" class="nav-item nav-link">Academics</a>
-        <a href="faculty.html" class="nav-item nav-link">Faculty</a>
-        <a href="fees.html" class="nav-item nav-link">Fee Structure</a>
-        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-        <a href="Public.html" class="nav-item nav-link">Public Disclosure</a>
-        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ml-auto font-weight-bold text-center text-lg-left">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="about.html" class="nav-item nav-link">About KCS</a>
+          <a href="academics.html" class="nav-item nav-link">Academics</a>
+          <a href="faculty.html" class="nav-item nav-link">Faculty</a>
+          <a href="fees.html" class="nav-item nav-link">Fee Structure</a>
+          <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+          <a href="Public.html" class="nav-item nav-link">Public Disclosure</a>
+          <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+        </div>
       </div>
-    </div>
-  </nav>
-</div>
+    </nav>
+  </div>
   <!-- Navbar End -->
 
-  <!-- Header Start -->
-  <!-- <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
-      <div class="row align-items-center px-3">
-        <div class="col-lg-6 text-center text-lg-left">
-          <h4 class="text-white mb-4 mt-5 mt-lg-0">Kids Learning Center</h4>
-          <h1 class="display-3 font-weight-bold text-white">
-            New Approach to Kids Education
-          </h1>
-          <p class="text-white mb-4">
-            Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet sed
-            sit. Ipsum dolor no justo dolor et, lorem ut dolor erat dolore sed
-            ipsum at ipsum nonumy amet. Clita lorem dolore sed stet et est justo
-            dolore.
-          </p>
-          <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
-        </div>
-        <div class="col-lg-6 text-center text-lg-right">
-          <img class="img-fluid mt-5" src="img/header.png" alt="" />
-        </div>
-      </div>
-    </div> -->
-  <!-- Header End -->
+
   <!-- HTML -->
   <div id="heroCarousel" class="carousel slide carousel-fade carousel-light" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -114,842 +97,424 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="2000">
-      <img src="img/about-2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/IMG_5381.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/IMG_6315.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div> -->
 
 
-  
 
   <!-- About Start -->
-  <div class="container-fluid py-5" style="background: linear-gradient(to left, rgba(254,157,1,0.763), rgba(254,157,1,0.1));">
-  <div class="container">
-    <div class="row align-items-center">
-      <!-- Image -->
-      <div class="col-lg-5">
-        <img class="img-fluid rounded mb-4 mb-lg-0" src="img/logo bg.png" alt="Kalpataru Central School Logo" />
-      </div>
+  <div class="container-fluid py-5"
+    style="background: linear-gradient(to left, rgba(254,157,1,0.763), rgba(254,157,1,0.1));">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Image -->
+        <div class="col-lg-5">
+          <img class="img-fluid rounded mb-4 mb-lg-0" src="img/logo bg.png" alt="Kalpataru Central School Logo" />
+        </div>
 
-      <!-- Text -->
-      <div class="col-lg-7 pt-3 pt-lg-0">
-        <h2><span class="pr-2" style="color: #FF9100;">About Us</span></h2>
-        <p>
-          The Kalpataru Vidya Samsthe(R), Tiptur was established in the year 1962, with a cherished desire of catering to the needs of the learning in and around Tiptur. It is the product of the vision and dynamism of its founding principal Shri. J R Mahalingaiah and the altruistic and munificent donations from the renowned philanthropists like Shri. Pallagatti Adavappa, the founding President of the Kalpataru Vidya Samsthe.
-        </p>
-        <p>
-          Kalpataru College, which came to light in 1962 with a meager strength of 277 students, went on growing from strength to strength until 1982, when it got bifurcated into Kalpataru Science College and Pallagatti Adavappa Arts and Commerce College, for convenience of administration.
-        </p>
-        <a href="#" class="btn btn-primary mt-2 py-2 px-4">Learn More</a>
+        <!-- Text -->
+        <div class="col-lg-7 pt-3 pt-lg-0">
+          <h2><span class="pr-2" style="color: #FF9100;">About Us</span></h2>
+          <p>
+            The Kalpataru Vidya Samsthe(R), Tiptur was established in the year 1962, with a cherished desire of catering
+            to the needs of the learning in and around Tiptur. It is the product of the vision and dynamism of its
+            founding principal Shri. J R Mahalingaiah and the altruistic and munificent donations from the renowned
+            philanthropists like Shri. Pallagatti Adavappa, the founding President of the Kalpataru Vidya Samsthe.
+          </p>
+          <p>
+            Kalpataru College, which came to light in 1962 with a meager strength of 277 students, went on growing from
+            strength to strength until 1982, when it got bifurcated into Kalpataru Science College and Pallagatti
+            Adavappa Arts and Commerce College, for convenience of administration.
+          </p>
+          <a href="about.html" class="btn btn-primary mt-2 py-2 px-4">Know More</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-  <!-- About End -->
 
   <!-- Vision & Mission Section -->
-<!-- Vision & Mission Section with Background Block -->
-<!-- <section class="vision-mission-section text-white">
-  <div class="overlay"></div>
-  <div class="container py-5 position-relative z-1">
-    <div class="text-center mb-5">
-      <h2 class="display-5" style="color: #FF9100;">Our Vision & Mission</h2>
-      <p class="lead text-white-50">What drives us forward as an institution</p>
-    </div>
-    <div class="row">
-      
-      <div class="col-lg-6 mb-4">
-        <div class="bg-dark bg-opacity-50 p-4 rounded shadow h-100">
-          <h4 class="text-warning mb-3">VISION</h4>
-          <p class="mb-0">
-            The School strives to create global citizens with deep-rooted Indian values so as to make a positive difference in the world they live in.
-          </p>
-        </div>
-      </div>
-
-      
-      <div class="col-lg-6 mb-4">
-        <div class="bg-dark bg-opacity-50 p-4 rounded shadow h-100">
-          <h4 class="text-warning mb-3">MISSION</h4>
-          <p class="mb-0">
-            To provide an outstanding holistic education for our students characterized by successful learning, cultural understanding, and emotional well-being that provides a firm foundation for the next stage of their learning and a safe environment where the art and science unite to produce young people of strong, compassionate character capable of being successful in this competitive world.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- Vision & Mission Section -->
-<div class="container-fluid py-5" style="background: url('img/staff2.png') no-repeat center center; background-size: cover; height: 560px;">
-  <!-- <div class="bg-dark bg-opacity-75 p-5 rounded shadow justify-content-center"> -->
+  <div class="container-fluid py-5"
+    style="background: url('img/staff2.png') no-repeat center center; background-size: cover; height: 560px;">
+    <!-- <div class="bg-dark bg-opacity-75 p-5 rounded shadow justify-content-center"> -->
     <div class="container justify-content-center">
       <div class="row align-items-center text-center text-lg-center">
 
         <div class="row">
-  <div class="col-sm-6">
-    <div class="card bg-dark" style="height: 200px;">
-      <div class="card-body-1" >
-        <h2 class="card-title">Our Vision</h2>
-        <p class="card-text">The School strives to create global citizens with deep rooted Indian values so as to make a positive difference in the world they live in.</p>
+          <div class="col-sm-6">
+            <div class="card bg-dark" style="height: 200px;">
+              <div class="card-body-1">
+                <h2 class="card-title">Our Vision</h2>
+                <p class="card-text">The School strives to create global citizens with deep rooted Indian values so as
+                  to make a positive difference in the world they live in.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card bg-dark">
+              <div class="card-body-1">
+                <h2 class="card-title">Our Mission</h2>
+                <p class="card-text">To provide an outstanding holistic education for our students characterized by
+                  successful learning, cultural understanding and emotional well being that provides firm foundation for
+                  the next stage of their learning and a safe environment where the art and science unite to produce
+                  young people of strong, compassionate character capable of being successful in this competitive world.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card bg-dark" >
-      <div class="card-body-1">
-        <h2 class="card-title">Our Mission</h2>
-        <p class="card-text">To provide an outstanding holistic education for our students characterized by successful learning, cultural understanding and emotional well being that provides firm foundation for the next stage of their learning and a safe environment where the art and science unite to produce young people of strong, compassionate character capable of being successful in this competitive world.</p>
-      </div>
-    </div>
   </div>
-</div>
-
-
-        <!-- Vision -->
-        <!-- <div class="col-lg-6 mb-6 mb-lg-0">
-          <h4 class="text-primary mb-3">Our Vision</h4>
-          <p>
-            The School strives to create global citizens with deep rooted Indian values so as to make a positive difference in the world they live in.
-          </p>
-        </div> -->
-
-        <!-- Center Image -->
-        <!-- <div class="col-lg-4 mb-4 mb-lg-0 text-center">
-          <img src="img/mission-vision.png" class="img-fluid" style="max-height: 150px;" alt="Vision and Mission Icon">
-        </div> -->
-
-        <!-- Mission -->
-        <!-- <div class="col-lg-6">
-          <h4 class="text-primary mb-3">Our Mission</h4>
-          <p>
-            To provide an outstanding holistic education for our students characterized by successful learning, cultural understanding and emotional well being that provides firm foundation for the next stage of their learning and a safe environment where the art and science unite to produce young people of strong, compassionate character capable of being successful in this competitive world.
-          </p>
-        </div> -->
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
-  <!-- Facilities Start -->
-  <!-- <div class="container-fluid pt-5">
-    <div class="container pb-3">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 pb-1">
-          <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
-            <i class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"></i>
-            <div class="pl-4">
-              <h4>Play Ground</h4>
-              <p class="m-0">
-                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                lorem amet elitr vero...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 pb-1">
-          <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
-            <i class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"></i>
-            <div class="pl-4">
-              <h4>Music and Dance</h4>
-              <p class="m-0">
-                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                lorem amet elitr vero...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 pb-1">
-          <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
-            <i class="flaticon-030-crayons h1 font-weight-normal text-primary mb-3"></i>
-            <div class="pl-4">
-              <h4>Arts and Crafts</h4>
-              <p class="m-0">
-                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                lorem amet elitr vero...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 pb-1">
-          <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
-            <i class="flaticon-017-toy-car h1 font-weight-normal text-primary mb-3"></i>
-            <div class="pl-4">
-              <h4>Safe Transportation</h4>
-              <p class="m-0">
-                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                lorem amet elitr vero...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 pb-1">
-          <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
-            <i class="flaticon-025-sandwich h1 font-weight-normal text-primary mb-3"></i>
-            <div class="pl-4">
-              <h4>Healthy food</h4>
-              <p class="m-0">
-                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                lorem amet elitr vero...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 pb-1">
-          <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px">
-            <i class="flaticon-047-backpack h1 font-weight-normal text-primary mb-3"></i>
-            <div class="pl-4">
-              <h4>Educational Tour</h4>
-              <p class="m-0">
-                Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
-                lorem amet elitr vero...
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- Facilities Start -->
-
-  <!-- Class Start -->
-  <!-- <div class="container-fluid pt-5">
-    <div class="container">
-      <div class="text-center pb-2">
-        <p class="section-title px-5">
-          <span class="px-2">Popular Classes</span>
-        </p>
-        <h1 class="mb-4">Classes for Your Kids</h1>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 mb-5">
-          <div class="card border-0 bg-light shadow-sm pb-2">
-            <img class="card-img-top mb-2" src="img/class-1.jpg" alt="" />
-            <div class="card-body text-center">
-              <h4 class="card-title">Drawing Class</h4>
-              <p class="card-text">
-                Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                ipsum duo et no et, ipsum ipsum erat duo amet clita duo
-              </p>
-            </div>
-            <div class="card-footer bg-transparent py-4 px-5">
-              <div class="row border-bottom">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Age of Kids</strong>
-                </div>
-                <div class="col-6 py-1">3 - 6 Years</div>
-              </div>
-              <div class="row border-bottom">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Total Seats</strong>
-                </div>
-                <div class="col-6 py-1">40 Seats</div>
-              </div>
-              <div class="row border-bottom">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Class Time</strong>
-                </div>
-                <div class="col-6 py-1">08:00 - 10:00</div>
-              </div>
-              <div class="row">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Tution Fee</strong>
-                </div>
-                <div class="col-6 py-1">$290 / Month</div>
-              </div>
-            </div>
-            <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-5">
-          <div class="card border-0 bg-light shadow-sm pb-2">
-            <img class="card-img-top mb-2" src="img/class-2.jpg" alt="" />
-            <div class="card-body text-center">
-              <h4 class="card-title">Language Learning</h4>
-              <p class="card-text">
-                Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                ipsum duo et no et, ipsum ipsum erat duo amet clita duo
-              </p>
-            </div>
-            <div class="card-footer bg-transparent py-4 px-5">
-              <div class="row border-bottom">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Age of Kids</strong>
-                </div>
-                <div class="col-6 py-1">3 - 6 Years</div>
-              </div>
-              <div class="row border-bottom">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Total Seats</strong>
-                </div>
-                <div class="col-6 py-1">40 Seats</div>
-              </div>
-              <div class="row border-bottom">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Class Time</strong>
-                </div>
-                <div class="col-6 py-1">08:00 - 10:00</div>
-              </div>
-              <div class="row">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Tution Fee</strong>
-                </div>
-                <div class="col-6 py-1">$290 / Month</div>
-              </div>
-            </div>
-            <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-5">
-          <div class="card border-0 bg-light shadow-sm pb-2">
-            <img class="card-img-top mb-2" src="img/class-3.jpg" alt="" />
-            <div class="card-body text-center">
-              <h4 class="card-title">Basic Science</h4>
-              <p class="card-text">
-                Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                ipsum duo et no et, ipsum ipsum erat duo amet clita duo
-              </p>
-            </div>
-            <div class="card-footer bg-transparent py-4 px-5">
-              <div class="row border-bottom">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Age of Kids</strong>
-                </div>
-                <div class="col-6 py-1">3 - 6 Years</div>
-              </div>
-              <div class="row border-bottom">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Total Seats</strong>
-                </div>
-                <div class="col-6 py-1">40 Seats</div>
-              </div>
-              <div class="row border-bottom">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Class Time</strong>
-                </div>
-                <div class="col-6 py-1">08:00 - 10:00</div>
-              </div>
-              <div class="row">
-                <div class="col-6 py-1 text-right border-right">
-                  <strong>Tution Fee</strong>
-                </div>
-                <div class="col-6 py-1">$290 / Month</div>
-              </div>
-            </div>
-            <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- Class End -->
-
-  <!-- Registration Start -->
-  <!-- <div class="container-fluid py-5">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-7 mb-5 mb-lg-0">
-          <p class="section-title pr-5">
-            <span class="pr-2">Book A Seat</span>
-          </p>
-          <h1 class="mb-4">Book A Seat For Your Kid</h1>
-          <p>
-            Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
-            dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo.
-            Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-            dolor
-          </p>
-          <ul class="list-inline m-0">
-            <li class="py-2">
-              <i class="fa fa-check text-success mr-3"></i>Labore eos amet
-              dolor amet diam
-            </li>
-            <li class="py-2">
-              <i class="fa fa-check text-success mr-3"></i>Etsea et sit dolor
-              amet ipsum
-            </li>
-            <li class="py-2">
-              <i class="fa fa-check text-success mr-3"></i>Diam dolor diam
-              elitripsum vero.
-            </li>
-          </ul>
-          <a href="" class="btn btn-primary mt-4 py-2 px-4">Book Now</a>
-        </div>
-        <div class="col-lg-5">
-          <div class="card border-0">
-            <div class="card-header bg-secondary text-center p-4">
-              <h1 class="text-white m-0">Book A Seat</h1>
-            </div>
-            <div class="card-body rounded-bottom bg-primary p-5">
-              <form>
-                <div class="form-group">
-                  <input type="text" class="form-control border-0 p-4" placeholder="Your Name" required="required" />
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control border-0 p-4" placeholder="Your Email" required="required" />
-                </div>
-                <div class="form-group">
-                  <select class="custom-select border-0 px-4" style="height: 47px">
-                    <option selected>Select A Class</option>
-                    <option value="1">Class 1</option>
-                    <option value="2">Class 1</option>
-                    <option value="3">Class 1</option>
-                  </select>
-                </div>
-                <div>
-                  <button class="btn btn-secondary btn-block border-0 py-3" type="submit">
-                    Book Now
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- Registration End -->
-
-  <!-- Team Start -->
-  <!-- <div class="container-fluid pt-5">
-    <div class="container">
-      <div class="text-center pb-2">
-        <p class="section-title px-5">
-          <span class="px-2">Our Office Brarers</span>
-        </p>
-        <h1 class="mb-4">Meet Our Office Bararers</h1>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-3 text-center team mb-5">
-          <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-            <img class="img-fluid w-100" src="img/Sri P.K. Thipperudrappa President.jpeg" alt="" style="height: 350px;" />
-            
-          </div>
-          <h4>P K Thipperudrappa</h4>
-          <i>President</i>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center team mb-5">
-          <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-            <img class="img-fluid w-100" src="img/Sri B.S. Umesh Vice President.jpeg" alt="" style="height: 350px;"/>
-            
-          </div>
-          <h4>B S Umesh</h4>
-          <i>Vice-President</i>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center team mb-5">
-          <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-            <img class="img-fluid w-100" src="img/Sri M.R. Sangamesh Secretary.jpeg" alt="" style="height: 350px;"/>
-           
-          </div>
-          <h4>M R Sangamesh</h4>
-          <i>Secretary</i>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center team mb-5">
-          <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-            <img class="img-fluid w-100" src="img/Sri T.S. Shivaprasad Treasurer.jpg" alt="" style="height: 350px;"/>
-            
-          </div>
-          <h4>T S Shivaprasad</h4>
-          <i>Treasurer</i>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <!-- Our Office Bearers Section -->
-<div class="container-fluid pt-5" style="background-color: #fff3e0;">
-  <div class="container">
-    <div class="text-center pb-4">
-      <h2 class="mb-4" style="color: #FF9100;">Our Office Bearers</h2>
-    </div>
-
-    <div class="d-flex flex-wrap justify-content-center">
-      <!-- Office Bearer Cards (10 total, 5 per row) -->
-      <!-- Repeat this block for each office bearer -->
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri P.K. Thipperudrappa President.jpeg" alt="President" />
-        </div>
-        <h5 class="mb-1">P K Thipperudrappa</h5>
-        <p class="text-muted">President</p>
+  <div class="container-fluid pt-5" style="background-color: #fff3e0;">
+    <div class="container">
+      <div class="text-center pb-4">
+        <h2 class="mb-4" style="color: #FF9100;">Our Office Bearers</h2>
       </div>
 
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri B.S. Umesh Vice President.jpeg" alt="Vice President" />
+      <div class="d-flex flex-wrap justify-content-center">
+        <!-- Office Bearer Cards (10 total, 5 per row) -->
+        <!-- Repeat this block for each office bearer -->
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri P.K. Thipperudrappa President.jpeg" alt="President" />
+          </div>
+          <h5 class="mb-1">P K Thipperudrappa</h5>
+          <p class="text-muted">President</p>
         </div>
-        <h5 class="mb-1">B S Umesh</h5>
-        <p class="text-muted">Vice President</p>
-      </div>
 
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri M.R. Sangamesh Secretary.jpeg" alt="Secretary" />
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri B.S. Umesh Vice President.jpeg" alt="Vice President" />
+          </div>
+          <h5 class="mb-1">B S Umesh</h5>
+          <p class="text-muted">Vice President</p>
         </div>
-        <h5 class="mb-1">M R Sangamesh</h5>
-        <p class="text-muted">Secretary</p>
-      </div>
 
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri T.S. Shivaprasad Treasurer.jpg" alt="Treasurer" />
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri M.R. Sangamesh Secretary.jpeg" alt="Secretary" />
+          </div>
+          <h5 class="mb-1">M R Sangamesh</h5>
+          <p class="text-muted">Secretary</p>
         </div>
-        <h5 class="mb-1">T S Shivaprasad</h5>
-        <p class="text-muted">Treasurer</p>
-      </div>
 
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri Bagepalli              Nataraj         Vice President2.jpg" alt="Member 5" />
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri T.S. Shivaprasad Treasurer.jpg" alt="Treasurer" />
+          </div>
+          <h5 class="mb-1">T S Shivaprasad</h5>
+          <p class="text-muted">Treasurer</p>
         </div>
-        <h5 class="mb-1">B S Nataraj</h5>
-        <p class="text-muted">Vice President</p>
-      </div>
 
-      <!-- Second row starts automatically due to flex-wrap -->
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri T.S.           Basavaraju             Vice President3.jpeg" alt="Member 6" />
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri Bagepalli              Nataraj         Vice President2.jpg"
+              alt="Member 5" />
+          </div>
+          <h5 class="mb-1">B S Nataraj</h5>
+          <p class="text-muted">Vice President</p>
         </div>
-        <h5 class="mb-1">T S Basavaraju</h5>
-        <p class="text-muted">Vice President</p>
-      </div>
 
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri G.P. Deepak Vice President4.jpg" alt="Member 7" />
+        <!-- Second row starts automatically due to flex-wrap -->
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri T.S.           Basavaraju             Vice President3.jpeg"
+              alt="Member 6" />
+          </div>
+          <h5 class="mb-1">T S Basavaraju</h5>
+          <p class="text-muted">Vice President</p>
         </div>
-        <h5 class="mb-1">G P Deepak</h5>
-        <p class="text-muted">Vice President</p>
-      </div>
 
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri T.U.Jagadeeshmurthy                      Secretary3.jpeg" alt="Member 8" />
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri G.P. Deepak Vice President4.jpg" alt="Member 7" />
+          </div>
+          <h5 class="mb-1">G P Deepak</h5>
+          <p class="text-muted">Vice President</p>
         </div>
-        <h5 class="mb-1">T U Jagadeeshmurthy</h5>
-        <p class="text-muted">Secretary</p>
-      </div>
 
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri G.S. Umashankar         Secretary2.jpg" alt="Member 9" />
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri T.U.Jagadeeshmurthy                      Secretary3.jpeg"
+              alt="Member 8" />
+          </div>
+          <h5 class="mb-1">T U Jagadeeshmurthy</h5>
+          <p class="text-muted">Secretary</p>
         </div>
-        <h5 class="mb-1">G S Umashankar</h5>
-        <p class="text-muted">Secretary</p>
-      </div>
 
-      <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
-        <div class="image-container mb-3">
-          <img class="img-fluid" src="img/Sri H.G. Sudhakar Secretary1.jpeg" alt="Member 10" />
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri G.S. Umashankar         Secretary2.jpg" alt="Member 9" />
+          </div>
+          <h5 class="mb-1">G S Umashankar</h5>
+          <p class="text-muted">Secretary</p>
         </div>
-        <h5 class="mb-1">H G Sudhakar</h5>
-        <p class="text-muted">Secretary</p>
+
+        <div class="team-card text-center mb-4" style="flex: 0 0 20%; max-width: 20%; padding: 0 15px;">
+          <div class="image-container mb-3">
+            <img class="img-fluid" src="img/Sri H.G. Sudhakar Secretary1.jpeg" alt="Member 10" />
+          </div>
+          <h5 class="mb-1">H G Sudhakar</h5>
+          <p class="text-muted">Secretary</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <!-- Team End -->
 
-  <!-- About Start -->
-  <!-- <div class="container-fluid py-5">
+
+
+  <!-- Message from the Principal Section -->
+  <div class="container-fluid py-5 "
+    style="background: linear-gradient(to right, rgba(224, 155, 42, 0.763), rgba(254,157,1,0.1));">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-5">
-          <img class="img-fluid rounded mb-5 mb-lg-0" src="img/WhatsApp Image 2022-07-02 at 9.48.57 AM.jpg" alt="" />
+
+        <!-- Left Side: Image -->
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <img src="img/IMG_1577.JPG" alt="Principal of Kalpataru Central School" class="img-fluid rounded shadow" />
         </div>
+
+        <!-- Right Side: Message -->
         <div class="col-lg-7">
-          <p class="section-title pr-5">
-           <span class="pr-2">Message from The principal</span>
-          </p>
-         
+
+          <h2> <span style="color: #FF9100;">Message from the Principal</span></h2>
+
+
           <p>
-            I derive immense pleasure to talk 
-											about our school. We are very proud 
-											of the fact that Kalpataru Central 
-											School has a spacious building, 
-											fully-functional laboratories, and a 
-											very good library with thousands of 
-											volumes of books, a vast playground, 
-											and a very well trained and 
-											resourceful faculty. Children 
-											certainly enjoy the school 
-											environment and, in turn, acquire 
-											knowledge and confidently express 
-											themselves. Games and co-curricular 
-											activities are given due importance 
-											in our school. <br>
-											<br>
-											<b>Our School stands for <br>
-											</b> True spirit of learning <br>
-											 Inculcating universal human values
-											<br>
-											 Showing respect to all the faiths
-											<br>
-											Exploring the innovative 
-											scientific world <br>
-											 Acquiring knowledge to become a 
-											great individual<br>
-											<br>
-											<br></p>
-          <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a> -->
+            I derive immense pleasure in talking about our school. We are very proud of the fact that Kalpataru Central
+            School has a spacious building, fully functional laboratories, a well-stocked library with thousands of
+            volumes, a vast playground, and a well-trained, resourceful faculty.
+          </p>
 
-          <!-- Message from the Principal Section -->
-<div class="container-fluid py-5 " style="background: linear-gradient(to right, rgba(224, 155, 42, 0.763), rgba(254,157,1,0.1));">
-  <div class="container">
-    <div class="row align-items-center">
-      
-      <!-- Left Side: Image -->
-      <div class="col-lg-5 mb-4 mb-lg-0">
-        <img 
-          src="img/IMG_1577.JPG" 
-          alt="Principal of Kalpataru Central School" 
-          class="img-fluid rounded shadow" 
-        />
-      </div>
-      
-      <!-- Right Side: Message -->
-      <div class="col-lg-7">
-       
-         <h2> <span style="color: #FF9100;">Message from the Principal</span></h2>
-      
+          <p>
+            Children enjoy the school environment and, in turn, acquire knowledge and confidently express themselves.
+            Games and co-curricular activities are given due importance in our school.
+          </p>
 
-        <p>
-          I derive immense pleasure in talking about our school. We are very proud of the fact that Kalpataru Central School has a spacious building, fully functional laboratories, a well-stocked library with thousands of volumes, a vast playground, and a well-trained, resourceful faculty.
-        </p>
-
-        <p>
-          Children enjoy the school environment and, in turn, acquire knowledge and confidently express themselves. Games and co-curricular activities are given due importance in our school.
-        </p>
-
-        <p><b>Our School Stands For:</b></p>
-        <ul>
-          <li>True spirit of learning</li>
-          <li>Inculcating universal human values</li>
-          <li>Showing respect to all faiths</li>
-          <li>Exploring the innovative scientific world</li>
-          <li>Acquiring knowledge to become great individuals</li>
-        </ul>
-
-        <a href="#" class="btn btn-primary mt-3 py-2 px-4">Learn More</a>
-      </div>
-    </div>
-  </div>
-</div>
+          <p><b>Our School Stands For:</b></p>
+          <ul>
+            <li>True spirit of learning</li>
+            <li>Inculcating universal human values</li>
+            <li>Showing respect to all faiths</li>
+            <li>Exploring the innovative scientific world</li>
+            <li>Acquiring knowledge to become great individuals</li>
+          </ul>
 
           
-   <!-- Activities Section -->
-<div class="container-fluid pt-4" style="background: linear-gradient(to top, rgba(254,157,1,0.763), rgba(254,157,1,0.1));">
-  <div class="container">
-    <div class="text-center pb-2">
-      <h2 class="mb-1" style="color: #FF9100;">Latest Articles From Activities</h2>
+        </div>
+      </div>
     </div>
-
-    <!-- Carousel Start -->
-    <div id="activitiesCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="row">
-            <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm h-100">
-                <img src="img/111.jpg" class="card-img-top" alt="Farewell">
-                <div class="card-body bg-light text-center d-flex flex-column p-4">
-                  <h4>Farewell to the 2024-25 batch</h4>
-                  <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                    Farewell was organized for the outgoing students of 10th Std on 7th Feb 2025. Smt. Devika B Swamy, Principal, KCS, graced the occasion. The teachers bid adieu with a heavy heart to the outgoing students. On their part, the outgoing students spoke highly of the contribution made by the school to their overall growth. They also promised to perform well in the forthcoming 10th Std CBSE Examination.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm h-100">
-                <img src="img/11.jpg" class="card-img-top" alt="Republic Day">
-                <div class="card-body bg-light text-center d-flex flex-column p-4">
-                  <h4>Republic Day Celebration</h4>
-                  <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                    Republic Day was celebrated in our school on 26th January 2025. Sri P K Thipperudrappa, President, KVS hoisted the National Flag. All the office bearers of KVS graced the occasion. Teachers and students from all the institutions under KVS took part. Dance programs and a March Past also took place on the occasion. It was a huge celebration.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-lg-4 d-none d-lg-block mb-4">
-              <div class="card border-0 shadow-sm h-100">
-                <img src="img/anual.jpg" class="card-img-top" alt="Counselling for Parents">
-                <div class="card-body bg-light text-center d-flex flex-column p-4">
-                  <h4>Annual Day Celebration</h4>
-                  <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                    Annual Day Celebration The annual Day Celebration was organized on 24th December 2024 in Kalpataru grounds, Tiptur. Srimat. Mangalanathanandaji Maharaj, President, Ramakrishna Mutt, Badarikasrama, Madihalli, Turvekere was kind enough to grace the occasion with his divine presence. The chief guest of the celebration was Sri. K Shadakshari, MLA, Tiptur. Sri. P K Thipperudrappa, President, KVS presided over the programme. Smt. Sapthashree B.K. KAS, Assistant Commissioner, Tiptur, Sri. Pavan Kumar S KAS, Tahsildar, Tiptur, and Sri. Chandraiah. G, KES, BEO, and Tiptur were the special invitees. The Office Bearers of KVS, Sri. B S Umesh, Sri. Bagepalli Nataraju, Sri. T S Basavaraju and Sri. G P Deepak, Vice-Presidents, Sri. M R Sangamesh, Sri. T U Jagadeesh Murthy, Sri. G S Umashankar and Sri. H G Sudhakar, Secretaries, KVS and Sri. T S Shivaprasad, Treasurer, KVS graced the occasion. Smt. Devika B Swamy, Principal, KCS read out the Annual Report 2024-25. Cultural programmes were given by the students of KCS from grade 1 to grade 10. The Annual Day Celebration was organized on a grand scale and thousands of parents and other citizens of Tiptur watched the programme with admiration and enthusiasm.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="row">
-            <!-- Card 4 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm h-100">
-                <img src="img/students.jpg" class="card-img-top" alt="Student Counselling" height="277.54px">
-                <div class="card-body bg-light text-center d-flex flex-column p-4">
-                  <h4>Counselling session for Students</h4>
-                  <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                    A counselling session was held in our school to help students gain confidence before exams. Students were advised to avoid rote learning, get proper sleep, eat fruits and vegetables, stay curious, and not feel pressured about marks. They were encouraged to read more books and reduce screen time. A strong connection was built between the students and the counselor.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm h-100">
-                <img src="img/sta.jpg" class="card-img-top" alt="Science Exhibition">
-                <div class="card-body bg-light text-center d-flex flex-column p-4">
-                  <h4>Counselling session for Teachers</h4>
-                  <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                    A counselling session was held in our school on 7th January 2024. All the teachers in the school attended the counselling session. Dr. M Sreedara Murthy, a renowned psychologist was the resource person and the counsellor. It was an interactive session and the teachers were told to be more tolerant towards children. Positive pressure could be exerted on the children to make them more competent the students should never feel threatened in the classroom. Learning takes place every moment and the teachers should never consider the examination and performance of the students to be the result. Teachers felt happy interacting with the resource person and the counsellor addressed many of their concerns during the session.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="col-lg-4 d-none d-lg-block mb-4">
-              <div class="card border-0 shadow-sm h-100">
-                <img src="img/parents.jpg" class="card-img-top" alt="Sports Meet">
-                <div class="card-body bg-light text-center d-flex flex-column p-4">
-                  <h4>Counselling session for Parents</h4>
-                  <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                    A counselling session was organized in our school on 7th January 2024. Dr M Sreedhara Murthy, a Renowned Psychologist and well-known counselor was the resource person. Around 100 parents attended the session. It was an interactive session where the parents aired their concerns regarding what the ideal parent behavior should be and how to handle adolescent children. Dr. M Sreedhara Murthy advised the parents not to exert too much pressure on the students. He told them to look up on children endowed with talent and that they have the potential to make things happen in life. He also advised them not to draw compressions among children. Everyone is unique and the parent should have tremendous faith in their children. He gave them tips on how to handle pressure and made the parents realize that an open-ended approach should be adopted by the parents.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="row">
-            <!-- Card 7 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm h-100">
-                <img src="img/maths.jpg" class="card-img-top" alt="Student Counselling">
-                <div class="card-body bg-light text-center d-flex flex-column p-4">
-                  <h4>Mathematics Day</h4>
-                  <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                    Mathematics Day was celebrated in the school on 22nd December 2024. Mathematics teachers explained the significance of the day to the students. 7th std students came up with dance programme and 2nd std students came up with skit on the occasion.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 8 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm h-100">
-                <img src="img/co-cu.jpg" class="card-img-top" alt="Science Exhibition">
-                <div class="card-body bg-light text-center d-flex flex-column p-4">
-                  <h4>Co-curricular Activities</h4>
-                  <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                    Co-curricular Activities Students are encouraged to participate in various competitions like drawing, painting, clay modeling, singing and essay writing organised by various institutions. Our students have participated in these competitions bagging prizes, and bringing laurels to the school.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 9 -->
-            <div class="col-lg-4 d-none d-lg-block mb-4">
-              <div class="card border-0 shadow-sm h-100">
-                <img src="img/festival.jpg" class="card-img-top" alt="Sports Meet">
-                <div class="card-body bg-light text-center d-flex flex-column p-4">
-                  <h4>Regional and National Festival Celebrations</h4>
-                  <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                    Various regional and national festivals are celebrated in school with gusto. The significance of these festivals is explained to the students.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  </div>
 
 
-        <!-- Add more slides as needed -->
-
+  <!-- Activities Section -->
+  <div class="container-fluid pt-4"
+    style="background: linear-gradient(to top, rgba(254,157,1,0.763), rgba(254,157,1,0.1));">
+    <div class="container">
+      <div class="text-center pb-2">
+        <h2 class="mb-1" style="color: #FF9100;">Latest Articles From Activities</h2>
       </div>
 
-      <!-- Controls -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#activitiesCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#activitiesCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
+      <!-- Swiper Start -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/111.jpg" class="card-img-top" alt="Farewell">
+              <div class="card-body bg-light text-center d-flex flex-column p-4">
+                <h4>Farewell to the 2024-25 batch</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  Farewell was organized for the outgoing students of 10th Std on 7th Feb 2025. Smt. Devika B Swamy,
+                  Principal, KCS, graced the occasion. The teachers bid adieu with a heavy heart to the outgoing
+                  students. On their part, the outgoing students spoke highly of the contribution made by the school to
+                  their overall growth. They also promised to perform well in the forthcoming 10th Std CBSE Examination.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/11.jpg" class="card-img-top" alt="Republic Day">
+              <div class="card-body bg-light text-center d-flex flex-column p-4">
+                <h4>Republic Day Celebration</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  Republic Day was celebrated in our school on 26th January 2025. Sri P K Thipperudrappa, President, KVS
+                  hoisted the National Flag. All the office bearers of KVS graced the occasion. Teachers and students
+                  from all the institutions under KVS took part. Dance programs and a March Past also took place on the
+                  occasion. It was a huge celebration.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/anual.jpg" class="card-img-top" alt="Counselling">
+              <div class="card-body bg-light text-center d-flex flex-column p-4">
+                <h4>Annual Day Celebration</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  Annual Day Celebration The annual Day Celebration was organized on 24th December 2024 in Kalpataru
+                  grounds, Tiptur. Srimat. Mangalanathanandaji Maharaj, President, Ramakrishna Mutt, Badarikasrama,
+                  Madihalli, Turvekere was kind enough to grace the occasion with his divine presence. The chief guest
+                  of the celebration was Sri. K Shadakshari, MLA, Tiptur. Sri. P K Thipperudrappa, President, KVS
+                  presided over the programme. Smt. Sapthashree B.K. KAS, Assistant Commissioner, Tiptur, Sri. Pavan
+                  Kumar S KAS, Tahsildar, Tiptur, and Sri. Chandraiah. G, KES, BEO, and Tiptur were the special
+                  invitees. The Office Bearers of KVS, Sri. B S Umesh, Sri. Bagepalli Nataraju, Sri. T S Basavaraju and
+                  Sri. G P Deepak, Vice-Presidents, Sri. M R Sangamesh, Sri. T U Jagadeesh Murthy, Sri. G S Umashankar
+                  and Sri. H G Sudhakar, Secretaries, KVS and Sri. T S Shivaprasad, Treasurer, KVS graced the occasion.
+                  Smt. Devika B Swamy, Principal, KCS read out the Annual Report 2024-25. Cultural programmes were given
+                  by the students of KCS from grade 1 to grade 10. The Annual Day Celebration was organized on a grand
+                  scale and thousands of parents and other citizens of Tiptur watched the programme with admiration and
+                  enthusiasm.
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/students.jpg" class="card-img-top" alt="Farewell">
+              <div class="card-body bg-light text-center d-flex flex-column p-4">
+                <h4>Counselling session for Students</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  A counselling session was held in our school to help students gain confidence before exams. Students
+                  were advised to avoid rote learning, get proper sleep, eat fruits and vegetables, stay curious, and
+                  not feel pressured about marks. They were encouraged to read more books and reduce screen time. A
+                  strong connection was built between the students and the counselor.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/sta.jpg" class="card-img-top" alt="Republic Day">
+              <div class="card-body bg-light text-center d-flex flex-column p-4">
+                <h4>Counselling session for Teachers</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  A counselling session was held in our school on 7th January 2024. All the teachers in the school
+                  attended the counselling session. Dr. M Sreedara Murthy, a renowned psychologist was the resource
+                  person and the counsellor. It was an interactive session and the teachers were told to be more
+                  tolerant towards children. Positive pressure could be exerted on the children to make them more
+                  competent the students should never feel threatened in the classroom. Learning takes place every
+                  moment and the teachers should never consider the examination and performance of the students to be
+                  the result. Teachers felt happy interacting with the resource person and the counsellor addressed many
+                  of their concerns during the session.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/parents.jpg" class="card-img-top" alt="Counselling">
+              <div class="card-body bg-light text-center d-flex flex-column p-4">
+                <h4>Counselling session for Parents</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  A counselling session was organized in our school on 7th January 2024. Dr M Sreedhara Murthy, a
+                  Renowned Psychologist and well-known counselor was the resource person. Around 100 parents attended
+                  the session. It was an interactive session where the parents aired their concerns regarding what the
+                  ideal parent behavior should be and how to handle adolescent children. Dr. M Sreedhara Murthy advised
+                  the parents not to exert too much pressure on the students. He told them to look up on children
+                  endowed with talent and that they have the potential to make things happen in life. He also advised
+                  them not to draw compressions among children. Everyone is unique and the parent should have tremendous
+                  faith in their children. He gave them tips on how to handle pressure and made the parents realize that
+                  an open-ended approach should be adopted by the parents.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 7 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/maths.jpg" class="card-img-top" alt="Counselling">
+              <div class="card-body bg-light text-center d-flex flex-column p-4">
+                <h4>Mathematics Day</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  Mathematics Day was celebrated in the school on 22nd December 2024. Mathematics teachers explained the
+                  significance of the day to the students. 7th std students came up with dance programme and 2nd std
+                  students came up with skit on the occasion.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 8 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/co-cu.jpg" class="card-img-top" alt="Counselling">
+              <div class="card-body bg-light text-center d-flex flex-column p-4">
+                <h4>Co-curricular Activities</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  Co-curricular Activities Students are encouraged to participate in various competitions like drawing,
+                  painting, clay modeling, singing and essay writing organised by various institutions. Our students
+                  have participated in these competitions bagging prizes, and bringing laurels to the school.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 9 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/festival.jpg" class="card-img-top" alt="Counselling">
+              <div class="card-body bg-light text-center d-flex flex-column p-4">
+                <h4>Regional and National Festival Celebrations</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  Various regional and national festivals are celebrated in school with gusto. The significance of these
+                  festivals is explained to the students.
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Add more slides similarly -->
+
+        </div>
+
+        <!-- Swiper Buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <!-- Swiper End -->
+
     </div>
-    <!-- Carousel End -->
   </div>
-</div>
-  
+
   <!-- Footer Start -->
-  <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+  <div class="container-fluid bg-dark text-white mt-1 py-5 px-sm-3 px-md-5">
     <div class="row pt-5">
       <div class="col-lg-3 col-md-6 mb-5 ">
         <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 px-5"
           style="font-size: 40px; line-height: 40px">
           <img src="img/logo bg.png" width="100%" alt="">
           <!-- <span class="text-white">KidKinder</span> -->
-           
+
 
         </a>
         <p>
           <img src="img/name.jpg" width="100%" alt="">
-          <!-- Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea
-          dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr
-          stet diam duo eos rebum ipsum diam ipsum elitr. -->
+          
         </p>
         <div class="d-flex justify-content-start mt-4">
           <a class="btn rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px; color: #FF9100;"
@@ -968,8 +533,10 @@
           <h4 class="fa fa-map-marker-alt " style="color: #FF9100;"></h4>
           <div class="pl-3">
             <!-- <h5 class="" style="color: #FF9100;">Address</h5> -->
-            <p>Kalpataru Central School, <br> Vidyanagar, B. H. Road,<br>
-            Tiptur, Karnataka-572201,<br> INDIA</p>
+            <p>Vidyanagar, B. H. Road,<br>
+              <strong>Tiptur-572201</strong><br>
+              Karnataka State, INDIA
+            </p>
           </div>
         </div>
         <div class="d-flex">
@@ -983,8 +550,8 @@
           <h4 class="fa fa-phone-alt " style="color: #FF9100;"></h4>
           <div class="pl-3">
             <!-- <h5 class="text-white">Phone</h5> -->
-            <p>Principal :+91 9008647062 <br>
-            Office :08134-253504</p>
+            <p>principal :+91 9008647062 <br>
+              Office :08134-253504</p>
           </div>
         </div>
       </div>
@@ -1001,51 +568,72 @@
           <a class="text-white mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
         </div>
       </div>
-      <!-- <div class="col-lg-3 col-md-6 mb-5">
-        <h3 class="text-primary mb-4">Newsletter</h3>
-        <form action="">
-          <div class="form-group">
-            <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control border-0 py-4" placeholder="Your Email" required="required" />
-          </div>
-          <div>
-            <button class="btn btn-primary btn-block border-0 py-3" type="submit">
-              Submit Now
-            </button>
-          </div>
-        </form>
-      </div> -->
+
     </div>
-    <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, 0.2) ;">
+    <div class="container-fluid pt-5 " style="border-top: 1px solid rgba(23, 162, 184, 0.2) ;">
       <p class="m-0 text-center text-white">
         &copy;
         Kalpataru Central School. All Rights Reserved.
-        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+
       </p>
     </div>
-  </div>
-  <!-- Footer End -->
+    <!-- </div> -->
+    <!-- Footer End -->
 
-  <!-- Back to Top -->
-  <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script> -->
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script> -->
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-  <!-- Contact Javascript File -->
-  <!-- <script src="mail/jqBootstrapValidation.min.js"></script> -->
-  <script src="mail/contact.js"></script>
+    <!-- Contact Javascript File -->
+    <!-- <script src="mail/jqBootstrapValidation.min.js"></script> -->
+    <script src="mail/contact.js"></script>
 
-  <!-- Template Javascript -->
-  <script src="js/main.js"></script>.
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>.
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 1, // This makes it scroll 1 card at a time
+        loop: true,
+
+        // ✅ Add autoplay config here
+        autoplay: {
+          delay: 5000,       // 5000ms = 5 seconds
+          disableOnInteraction: false, // Keeps autoplay even after manual swipe
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          }
+        }
+      });
+    </script>
+
 </body>
 
 </html>

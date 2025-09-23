@@ -39,6 +39,109 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <style>
+/* Public Disclosure Cards Styles */
+.public-disclosure-container {
+  padding: 40px 15px;
+  background-color: #f8f9fa;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.public-disclosure-title {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #333;
+}
+
+.pdf-card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 240px; /* fixed min height */
+  transition: box-shadow 0.3s ease;
+}
+
+.pdf-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.pdf-title {
+  font-weight: 600;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #333;
+  word-break: break-word;
+  flex-grow: 1; /* take available space */
+}
+
+.pdf-icon {
+  width: 24px;
+  height: 24px;
+  fill: #E42D2D;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: auto; /* push buttons to bottom */
+}
+
+.btn {
+  flex: 1;
+  white-space: nowrap;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn.view-btn {
+  background-color: #28a745;
+}
+
+.btn.view-btn:hover {
+  background-color: #1e7e34;
+}
+
+@media (max-width: 576px) {
+  .btn-group {
+    flex-direction: column;
+  }
+  .btn {
+    flex: unset;
+    width: 100%;
+  }
+}
+</style>
+
   </head>
 
   <body>
@@ -80,6 +183,34 @@
     </div>
 
     <!-- Header End -->
+    <section class="public-disclosure-container">
+  <h2 class="public-disclosure-title">Public Disclosure Documents</h2>
+
+  <div class="pdf-card">
+    <div class="pdf-title">
+      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
+      Society Registration Certificate and Renewal Certificate
+    </div>
+    <div class="btn-group">
+      <a href="pdfs/mddsaras.pdf" target="_blank" class="btn view-btn" aria-label="View Society Registration Certificate and Renewal Certificate">View</a>
+      <a href="pdfs/mddsaras.pdf" download class="btn" aria-label="Download Society Registration Certificate and Renewal Certificate">Download</a>
+    </div>
+  </div>
+
+  <div class="pdf-card">
+    <div class="pdf-title">
+      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
+      Annual Financial Report 2024
+    </div>
+    <div class="btn-group">
+      <a href="pdfs/financial-report-2024.pdf" target="_blank" class="btn view-btn" aria-label="View Annual Financial Report 2024">View</a>
+      <a href="pdfs/financial-report-2024.pdf" download class="btn" aria-label="Download Annual Financial Report 2024">Download</a>
+    </div>
+  </div>
+
+  <!-- Add more pdf-card divs for other documents here -->
+  
+</section>
 
    
     <!-- Footer Start -->

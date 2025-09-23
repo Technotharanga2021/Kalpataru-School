@@ -13,16 +13,10 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet"/>
 
     <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
 
     <!-- Flaticon Font -->
     <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
@@ -34,12 +28,79 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/stylek.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+
+<!-- Teacher Stats Custom Styles -->
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fa;
+  }
+
+  #teacher-stats {
+    padding: 60px 0;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+  }
+
+  .stat-box {
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .stat-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .stat-icon {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    color: #4e73df;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    display: inline-block;
+  }
+
+  .plus {
+    font-size: 2rem;
+    color: #4e73df;
+    font-weight: bold;
+    margin-left: 4px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .stat-label {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 8px;
+    line-height: 1.4;
+  }
+
+  @media (max-width: 576px) {
+    .stat-box {
+      margin-bottom: 20px;
+    }
+  }
+</style>
+
   </head>
 
   <body>
@@ -89,9 +150,244 @@
 </div>
 
   <!-- About End -->
+<!-- disigne section -->
+ <!-- 🌟 Teacher Stats Section -->
+<section id="teacher-stats" style="background: linear-gradient(to left, rgba(254, 157, 1, 0.763), rgba(254, 157, 1, 0.1));">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Our Teaching Strength</h2>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Stat 1 -->
+      <div class="col-6 col-md-4 col-lg-3 d-flex">
+        <div class="stat-box w-100">
+          <div class="stat-icon">👩‍🏫</div>
+          <div><span class="stat-number count" data-target="60">0</span><span class="plus">+</span></div>
+          <div class="stat-label">Dedicated Teachers</div>
+        </div>
+      </div>
+
+      <!-- Stat 2 -->
+      <div class="col-6 col-md-4 col-lg-3 d-flex">
+        <div class="stat-box w-100">
+          <div class="stat-icon">🧠</div>
+          <div><span class="stat-number count" data-target="12">0</span><span class="plus">+</span></div>
+          <div class="stat-label">Avg. Years of Experience</div>
+        </div>
+      </div>
+
+      <!-- Stat 3 -->
+      <div class="col-6 col-md-4 col-lg-3 d-flex">
+        <div class="stat-box w-100">
+          <div class="stat-icon">🎓</div>
+          <div><span class="stat-number count" data-target="95">0</span><span class="plus">%</span></div>
+          <div class="stat-label">Teachers with B.Ed or Higher</div>
+        </div>
+      </div>
+
+      <!-- Stat 4 -->
+      <div class="col-6 col-md-4 col-lg-3 d-flex">
+        <div class="stat-box w-100">
+          <div class="stat-icon">🏆</div>
+          <div><span class="stat-number count" data-target="100">0</span><span class="plus">%</span></div>
+          <div class="stat-label">Child-Centered Training Completed</div>
+        </div>
+      </div>
+
+      <!-- Stat 5 -->
+      <div class="col-6 col-md-4 col-lg-3 d-flex">
+        <div class="stat-box w-100">
+          <div class="stat-icon">📚</div>
+          <div><span class="stat-number count" data-target="10">0</span><span class="plus">+</span></div>
+          <div class="stat-label">Subjects Covered</div>
+        </div>
+      </div>
+
+      <!-- Stat 6 -->
+      <div class="col-6 col-md-4 col-lg-3 d-flex">
+        <div class="stat-box w-100">
+          <div class="stat-icon">🏫</div>
+          <div><span class="stat-number count" data-target="60">0</span><span class="plus">+</span></div>
+          <div class="stat-label">Years Serving Education</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
     
     <!-- Facilities Start -->
+    <section id="Staffdetails" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- CARD 1 -->
+          <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100;">
+                <div class="inner">
+                  <p>Devika B Swamy</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Principal</p>
+                  <p>M.A, M.Ed</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- CARD 2 -->
+          <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100;">
+                <div class="inner">
+                  <p>Manjanna</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>PRT</p>
+                  <p>B.Com, BFA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100;">
+                <div class="inner">
+                  <p>Sunith Praveen</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>PRT</p>
+                  <p>B.E</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+         <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100;">
+                <div class="inner">
+                  <p>Latha T S</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>PRT</p>
+                  <p>Dip in Comp, PGDCA, Montessori Training Course</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100; justify-content: center;">
+                <div class="inner">
+                  <p>Asha Shivashankar</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>PRT</p>
+                  <p>M.A(English), Dip in Montessori</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 6 -->
+          <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100;">
+                <div class="inner">
+                  <p>Vasanthi Naidu</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>PRT</p>
+                  <p>M.A, B.Ed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 7 -->
+          <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100;">
+                <div class="inner">
+                  <p>VII Std</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>&#8377; 41,000/-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 8 -->
+          <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100;">
+                <div class="inner">
+                  <p>VIII Std</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>&#8377; 42,000/-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 9 -->
+          <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100;">
+                <div class="inner">
+                  <p>IX Std</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>&#8377; 44,000/-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 10 -->
+          <div class="col-md-5 col-lg-2 text-center mb-4">
+            <div class="containe" ontouchstart="this.classList.toggle('hover');">
+              <div class="front" style="background-color: #FF9100;">
+                <div class="inner">
+                  <p>X Std</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>&#8377; 44,000/-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Team Start -->
     <div class="container-fluid pt-5">
       <div class="container">
@@ -101,7 +397,7 @@
         <div class="row" style="flex-wrap: wrap; justify-content: center;">
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4"style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
             </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Devika B Swamy</h4>
             <i>Principal</i><br>
@@ -109,7 +405,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
             </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Manjanna</h4>
             <i>PRT</i><br>
@@ -117,7 +413,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
             </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sunitha Praveen</h4>
             <i>PRT</i><br>
@@ -125,7 +421,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Latha T S</h4>
             <i>PRT</i><br>
@@ -133,7 +429,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Asha Shivashankar</h4>
             <i>PRT</i><br>
@@ -141,7 +437,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Vasanthi Naidu</h4>
             <i>PRT</i><br>
@@ -149,7 +445,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Soumya S</h4>
             <i>PRT</i><br>
@@ -157,7 +453,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shwetha T N</h4>
             <i>PRT</i><br>
@@ -165,7 +461,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shanthala S</h4>
             <i>PRT</i><br>
@@ -173,7 +469,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Chowramma J</h4>
             <i>PRT</i><br>
@@ -181,7 +477,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bharathi S T</h4>
             <i>PRT</i><br>
@@ -189,7 +485,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Yashwanth T S</h4>
             <i>PRT</i><br>
@@ -197,7 +493,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Nagamani C R</h4>
             <i>PRT</i><br>
@@ -205,7 +501,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Roopa R</h4>
             <i>PRT</i><br>
@@ -213,7 +509,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Rani M R</h4>
             <i>PRT</i><br>
@@ -221,7 +517,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Asha M</h4>
             <i>PRT</i><br>
@@ -229,7 +525,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Srinivas P</h4>
             <i>PRT</i><br>
@@ -237,7 +533,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Purohit Rekha Harish</h4>
             <i>PRT</i><br>
@@ -245,7 +541,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shruthi B R</h4>
             <i>PRT</i><br>
@@ -253,7 +549,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Hurrumana</h4>
             <i>PRT</i><br>
@@ -261,7 +557,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sunitha R N</h4>
             <i>PRT</i><br>
@@ -269,7 +565,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Prathima M C</h4>
             <i>PRT</i><br>
@@ -277,7 +573,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Rekha H G</h4>
             <i>PRT</i><br>
@@ -285,7 +581,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Lathamani M K</h4>
             <i>PRT</i><br>
@@ -293,7 +589,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Suma V Deep</h4>
             <i>PRT</i><br>
@@ -301,7 +597,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bhuvaneshwari V S</h4>
             <i>PRT</i><br>
@@ -309,7 +605,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Kubra Afshan</h4>
             <i>PRT</i><br>
@@ -317,7 +613,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Triveni S V</h4>
             <i>PRT</i><br>
@@ -325,7 +621,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Chaithra T G</h4>
             <i>PRT</i><br>
@@ -333,7 +629,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ashwini M B</h4>
             <i>PRT</i><br>
@@ -341,7 +637,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shahawar Sulthana</h4>
             <i>PRT</i><br>
@@ -349,7 +645,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Amitha J Shekhar</h4>
             <i>PRT</i><br>
@@ -357,7 +653,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Deepali</h4>
             <i>PRT</i><br>
@@ -365,7 +661,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Anitha H C</h4>
             <i>TGT</i><br>
@@ -373,7 +669,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Syed Nooruddin</h4>
             <i>TGT</i><br>
@@ -381,7 +677,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shubha B M</h4>
             <i>TGT</i><br>
@@ -389,7 +685,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Renukaradhya M M</h4>
             <i>TGT</i><br>
@@ -397,7 +693,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Dhanalakshmi C D</h4>
             <i>TGT</i><br>
@@ -405,7 +701,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Annapoorna A</h4>
             <i>TGT</i><br>
@@ -413,7 +709,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ramakrishna</h4>
             <i>TGT</i><br>
@@ -421,7 +717,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Manjunath T N</h4>
             <i>TGT</i><br>
@@ -429,7 +725,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Asha S M</h4>
             <i>TGT</i><br>
@@ -437,7 +733,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Preetha D A</h4>
             <i>TGT</i><br>
@@ -445,7 +741,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Kala N</h4>
             <i>TGT</i><br>
@@ -453,7 +749,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Suneetha H S</h4>
             <i>TGT</i><br>
@@ -461,7 +757,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bushra Kausar</h4>
             <i>TGT</i><br>
@@ -469,7 +765,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Mallikarjuna Swamy M C </h4>
             <i>TGT</i><br>
@@ -477,7 +773,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Jinith Kumar N V</h4>
             <i>TGT</i><br>
@@ -485,7 +781,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Vijay Kumar H B</h4>
             <i>TGT</i><br>
@@ -493,7 +789,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Swetha N P</h4>
             <i>TGT</i><br>
@@ -501,7 +797,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sahana N</h4>
             <i>TGT</i><br>
@@ -509,7 +805,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sushma N</h4>
             <i>TGT</i><br>
@@ -517,7 +813,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Madhushree V</h4>
             <i>TGT</i><br>
@@ -525,7 +821,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bhavani H N</h4>
             <i>TGT</i><br>
@@ -533,7 +829,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Toufeeq</h4>
             <i>TGT</i><br>
@@ -541,7 +837,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shilpa G P</h4>
             <i>TGT</i><br>
@@ -549,7 +845,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">T L Chinmayi</h4>
             <i>TGT</i><br>
@@ -557,7 +853,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Durgadevi P</h4>
             <i>TGT</i><br>
@@ -565,7 +861,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Tejaswini M H</h4>
             <i>TGT</i><br>
@@ -573,7 +869,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shreeja M N</h4>
             <i>TGT</i><br>
@@ -581,7 +877,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Siddegowda H L</h4>
             <i>PTI</i><br>
@@ -589,7 +885,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Appegowdaswamy M</h4>
             <i>PTI</i><br>
@@ -597,7 +893,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Chandrashekar G</h4>
             <i>PTI</i><br>
@@ -605,7 +901,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Mohan Kumar M</h4>
             <i>PTI</i><br>
@@ -613,7 +909,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Rakesh B S</h4>
             <i>PTI</i><br>
@@ -621,7 +917,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Dhananjaya K G</h4>
             <i>Librarian</i><br>
@@ -629,7 +925,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Padma J R</h4>
             <i>Librarian</i><br>
@@ -637,7 +933,7 @@
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
               </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Dr.Vinutha H A</h4>
             <i>Counsellor</i><br>
@@ -768,5 +1064,43 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+
+
+<!-- Scroll Count-Up Script -->
+<script>
+  function animateCountUp(el) {
+    const target = +el.getAttribute('data-target');
+    const duration = 1500;
+    const stepTime = Math.max(Math.floor(duration / target), 20);
+    let count = 0;
+
+    const timer = setInterval(() => {
+      count++;
+      el.textContent = count;
+      if (count >= target) {
+        clearInterval(timer);
+        el.textContent = target;
+      }
+    }, stepTime);
+  }
+
+  function handleScrollAnimation() {
+    const counters = document.querySelectorAll('.count');
+    const triggerBottom = window.innerHeight;
+
+    counters.forEach(counter => {
+      const top = counter.getBoundingClientRect().top;
+
+      if (top < triggerBottom && !counter.classList.contains('counted')) {
+        counter.classList.add('counted');
+        animateCountUp(counter);
+      }
+    });
+  }
+
+  window.addEventListener('scroll', handleScrollAnimation);
+  window.addEventListener('load', handleScrollAnimation);
+</script>
+
   </body>
 </html>

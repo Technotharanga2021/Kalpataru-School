@@ -245,7 +245,8 @@ h1 {
   height: 250px;
   border-radius: 10px;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
+  width: 200px;
 }
 
 .back1 {
@@ -294,7 +295,7 @@ h1 {
   position: absolute;
   left: 0;
   width: 100%;
-  padding: 2rem;
+  /* padding: 2rem; */
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: 1px solid transparent;
@@ -358,3 +359,8 @@ h1 {
   /* font-family: "Montserrat"; */
   font-weight: 300;
 }
+
+.container1 {
+  padding: 15px;
+}
+

@@ -9805,7 +9805,7 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
   justify-content: center;
   color: #00394f;
-  background: #17a2b8;
+  background: #ff91;
   border-radius: 30px;
   font-size: 18px;
   opacity: .1;
@@ -10192,3 +10192,28 @@ Work Area CSS
   color: #FF9100;  /* or any other color */
 }
 
+/* dropdown */
+  /* Enable dropdown on hover */
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+/* from here */
+  /* 🔹 Events main button (when clicked or active) */
+.navbar .nav-link:focus,
+.navbar .nav-link:active,
+.navbar .nav-link.show,
+.navbar .nav-link.dropdown-toggle.show {
+  color: #FF9100 !important;   /* text color */
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* 🔹 Dropdown items (hover + active states) */
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+  background-color: #FF9100 !important; /* background when hovered/clicked */
+  color: #fff !important;              /* white text */
+}

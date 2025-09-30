@@ -33,7 +33,7 @@
 
   <!-- Customized Bootstrap Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/stylek.css">
+  <!-- <link rel="stylesheet" href="css/stylek.css"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
@@ -60,7 +60,7 @@
           <!-- Events dropdown -->
             <div class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" id="eventsDropdown" role="button" 
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
                 <div class="dropdown-menu" aria-labelledby="eventsDropdown">
                   <a class="dropdown-item" href="April.html">April</a>
                   <a class="dropdown-item" href="May.html">May</a>
@@ -339,277 +339,149 @@
 
 
   <!-- Activities Section -->
+  <!-- latest -->
   <div class="container-fluid pt-4"
     style="background: linear-gradient(to top, rgba(254,157,1,0.763), rgba(254,157,1,0.1));">
-    <div class="container">
-      <div class="text-center pb-2">
-        <h2 class="mb-1" style="color: #FF9100;"><b>Latest Events and Activities</b></h2>
-      </div>
+  <div class="container">
+    <div class="text-center pb-2">
+      <h2 class="mb-1" style="color: #FF9100;"><b>Latest Events and Activities</b></h2>
+    </div>
 
-      <!-- Swiper Start -->
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
+    <!-- Swiper Start -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
 
-          <!-- Slide 1 -->
-          <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/ambedkar.jpg" class="card-img-top" alt="Farewell">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>Ambedkar Jayanthi</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                  On 14<sup>th</sup>April – Ambedkar Jayanthi was celebrated in the school assembly. Students
-                  of Grade 9 and 10 were present on the occasion.
-                </div>
-                <a href="April.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="img/ambedkar.jpg" class="card-img-top" alt="Farewell">
+            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+              <h4>Ambedkar Jayanthi</h4>
+              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                On 14<sup>th</sup>April – Ambedkar Jayanthi was celebrated in the school assembly. Students
+                of Grade 9 and 10 were present on the occasion.
               </div>
+              <a href="April.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
             </div>
           </div>
-
-          <!-- Slide 2 -->
-          <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/reopen.jpg" class="card-img-top" alt="Republic Day">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>School reopened for the academic year 2025-26</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                  On 26<sup>th</sup> May – School reopened for the academic year 2025-26 with a total strength
-                  of 1495 students with 776 girls and 719 boys including the new
-                  admission. Total Teaching Staff comprises of 68 members with 51
-                  lady teachers and 17 gents teachers and non-teaching staff with 23
-                  ladies and 15 gents.
-                  Grade 1 kids were received by the teachers with a pencil as a small
-                  token of love for every student.
-                </div>
-                <a href="May.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/IMG_2180.jpg" class="card-img-top" alt="Counselling">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>World Environment Day</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                 On 5<sup>th</sup> June – World Environment Day was celebrated in the school assembly. Chief Guest was
-                 Mr B V Gundappa, An Environmentalist, Lecturer in Biology, C S Pura, Gubbi
-                 Taluk. He gave a talk on the conservation of environment. Hon’ble KVS office
-                 bearers were present on the occasion.
-                </div>
-                <a href="June.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div>
-
-
-          <!-- Slide 4 -->
-          <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/diamond.webp" class="card-img-top" alt="Farewell">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>Parent Teacher Association Meeting</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                 On 18<sup>th</sup> July – The Parent Teacher Association Meeting was convened at 4 PM in the AV Room
-                 with the members of the Committee. All major issues concerning academics, non-
-                 academic matters were discussed. All nominated parent members were present and
-                 they gave some valuable suggestions in the meeting.
-                </div>
-                <a href="July.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 5 -->
-          <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/IMG_5861.jpg" class="card-img-top" alt="Republic Day">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>Independence Day celebration</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                 On 15<sup>th</sup> Aug - Independence Day was celebrated in the school and in the Kalpataru Grounds with
-                 lot of zeal and enthusiasm. <br>
-                 About 260 high school students participated in the Taluk Level Patriotic Dance
-                 Competition at the Kalpataru Stadium &amp; bagged the first prize.
-                 Our School Troop (Boys) bagged 2 nd prize in the March-Past Competition.
-                </div>
-                <a href="August.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 6 -->
-          <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/pocso.jpg" class="card-img-top" alt="Counselling">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4> Verbattle Speech Competition Finals</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                  On 3<sup>rd</sup> Sept – The students showcased their excellent speaking skill standing tall against the
-                  well-known and reputed schools at the Verbattle Speech Competition Finals held in
-                  Bengaluru. They have made the school proud by bagging 2 nd and 3 rd prize in both
-                  Kannada and English Speech Competitions.
-                  English Speech Competition:
-                  Aryan Prakash 2 nd Prize
-                  Varsha Patel 3 rd Prize
-                  Kannada Speech Competition:
-                  Kaveri M 2 nd Prize
-                  Harshil S Hadimani 3 rd Prize.
-                </div>
-                <a href="Septmeber.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 7 -->
-          <!-- <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/doctors.jpg" class="card-img-top" alt="Counselling">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>Doctors’ day</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                 On 1<sup>st</sup>July – Doctors’ day was celebrated in the school assembly. Dr Vivechan, a renowned
-                 physician in Tiptur was the Chief Guest. The doctor addressed the gathering on right
-                 ways to sustain and improve one’s health condition.
-                </div>
-                <a href="October.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- Slide 8 -->
-          <!-- <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/fire.jpg" class="card-img-top" alt="Counselling">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>Fire Safety Training</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                  On 9<sup>th</sup> July – Fire Extinguishing Demo was initiated by Karnataka State Fire &amp; Emergency
-                  Services in association with Disaster Management Committee, KCS in the
-                  Kalpataru Grounds. The High School students performed a mock drill for an
-                  emergency evacuation in case of any unforeseen disaster.
-                </div>
-                <a href="November.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- Slide 9 -->
-          <!-- <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/WhatsApp Image 2024-12-15 at 12.49.21 PM (1) (1).jpg" class="card-img-top" alt="Counselling">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>Zonal Level tournaments</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                  From 4<sup>th</sup> – 10 <sup>th</sup> Aug The school has been encouraging the students to represent and participate in
-                  various Zonal Level tournaments held outside Tiptur. <br>
-                   Rishika Jain, Jeevan M U from 9 th Std and Gowrav from 8 th Std have represented our
-                  school and won the Bronze Medals in the Taekwondo CBSE Zonal Competition
-                  held in Pune. <br>
-                   The School Volley Team escorted by Mr. Siddegowda, Physical Education Teacher
-                  participated in the Volley-Ball Tournament held in Davangere. <br>
-                   The School Kho – Kho Team escorted by Mr. Chandrashekar, Mr. Rakhesh and Mrs.
-                  Lathamani had been to Raichur for the tournament. Boys team made through the
-                  Quarter-Finals.
-                </div>
-                <a href="December.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- Slide 10 -->
-          <!-- <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/debate.jpg" class="card-img-top" alt="Farewell">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>The Grand Finale of KCS Debate Championship 2025-26 (Season 9)</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                  On 13<sup>th</sup> Aug –The Grand Finale of KCS Debate Championship 2025-26 (Season 9) was held
-                  in the KCS premises. <br>
-                  The judges were Mrs. Vinutha Tejpal HOD, English Dept PAAC. Mr. Sachin
-                  Govind Naddoni, HOD, Chemistry Dept, Kalpataru P U College. <br>
-                  The finalist teams, The Kalpataru Argument Architects team led by Monika S S
-                  emerged as the Champions. Kalpataru El Dialectos team led by NiharikaKamaraj
-                  became the First Runner-up and KalpataruVox Suprema team led by Varsha K
-                  secured the Second Runner-up trophy. <br>
-                  The Office Bearers of Kalpataru Vidya Samsthe Sri T S Shivaprasad, The
-                  Treasurer, KVS and Sri M R Sangamesh, The Secretary, KVS and Smt. Devika B
-                  Swamy, The Principal, KCS witnessed the competition and appreciated the
-                  participants. <br>
-                  The High School students were present to encourage the participants.
-                </div>
-                <a href="January.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- Slide 11 -->
-          <!-- <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/taluk.jpg" class="card-img-top" alt="Republic Day">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4>Taluk-level Dasara Sports Competition</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                  On 27<sup>th</sup> Aug – Our young athletes made us proud at the Taluk-level Dasara Sports Competition
-                  held at Kalpataru Grounds, Tiptur, by bagging multiple medals across events.
-                  <ul>
-                    <li>Sanjana Patel – Gold (4×100m Relay), Silver (800m), Silver (400m)</li>
-                    <li>Poshika T.S. – Gold (4×100m Relay), Gold (Kho-Kho), Silver (200m), Silver (3000m)</li>
-                    <li>Raksha N.R. – Gold (200m), Gold (400m), Gold (4×100m Relay)</li>
-                    <li>Manvitha G.M. – Gold (4×100m Relay), Silver (1500m)</li>
-                    <li>Suhas – Bronze (800m), Bronze (400m)</li>
-                    <li>Kho-Kho Girls Team – Gold</li>
-                  </ul>               
-                  Our Physical Education teacher Mr. Rakhesh B S also bagged multiple medals
-                  mentioned as under:
-                  <ul>
-                    <li>Javelin Throw: Bronze</li>
-                    <li>4×100m Relay: Gold</li>
-                    <li>4×400m Relay: Gold</li>
-                  </ul>
-                </div>
-                <a href="Febraury.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- Slide 12 -->
-          <!-- <div class="swiper-slide">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="img/speech.jpg" class="card-img-top" alt="Counselling">
-              <div class="card-body bg-light text-center d-flex flex-column p-4">
-                <h4> Verbattle Speech Competition Finals</h4>
-                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                  On 3<sup>rd</sup> Sept – The students showcased their excellent speaking skill standing tall against the
-                  well-known and reputed schools at the Verbattle Speech Competition Finals held in
-                  Bengaluru. <br>
-                  They have made the school proud by bagging 2<sup>nd</sup> and 3<sup>rd</sup> prize in both
-                  Kannada and English Speech Competitions.
-                  <ul>
-                    <li>English Speech Competition:</li>
-                    <dl>Aryan Prakash 2<sup>nd</sup> Prize</dl>
-                    <dl>Varsha Patel 3<sup>rd</sup> Prize</dl>
-                    <li>Kannada Speech Competition:</li>
-                    <dl>Kaveri M 2<sup>nd</sup> Prize</dl>
-                    <dl>Harshil S Hadimani 3<sup>rd</sup> Prize.</dl>
-                  </ul>
-                </div>
-                <a href="March.html" class="btn btn-primary mt-2 py-2 px-4">Load More</a>
-              </div>
-            </div>
-          </div> -->
-          <!-- Add more slides similarly -->
         </div>
-        <!-- Swiper Buttons -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <!-- Swiper End -->
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="img/reopen.jpg" class="card-img-top" alt="Republic Day">
+            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+              <h4>School reopened for the academic year 2025-26</h4>
+              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                On 26<sup>th</sup> May – School reopened for the academic year 2025-26 with a total strength
+                of 1495 students with 776 girls and 719 boys including the new
+                admission. Total Teaching Staff comprises of 68 members with 51
+                lady teachers and 17 gents teachers and non-teaching staff with 23
+                ladies and 15 gents.
+                Grade 1 kids were received by the teachers with a pencil as a small
+                token of love for every student.
+              </div>
+              <a href="May.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="img/IMG_2180.jpg" class="card-img-top" alt="Counselling">
+            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+              <h4>World Environment Day</h4>
+              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+               On 5<sup>th</sup> June – World Environment Day was celebrated in the school assembly. Chief Guest was
+               Mr B V Gundappa, An Environmentalist, Lecturer in Biology, C S Pura, Gubbi
+               Taluk. He gave a talk on the conservation of environment. Hon’ble KVS office
+               bearers were present on the occasion.
+              </div>
+              <a href="June.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="swiper-slide">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="img/diamond.webp" class="card-img-top" alt="Farewell">
+            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+              <h4>Parent Teacher Association Meeting</h4>
+              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+               On 18<sup>th</sup> July – The Parent Teacher Association Meeting was convened at 4 PM in the AV Room
+               with the members of the Committee. All major issues concerning academics, non-
+               academic matters were discussed. All nominated parent members were present and
+               they gave some valuable suggestions in the meeting.
+              </div>
+              <a href="July.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="swiper-slide">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="img/IMG_5861.jpg" class="card-img-top" alt="Republic Day">
+            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+              <h4>Independence Day celebration</h4>
+              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+               On 15<sup>th</sup> Aug - Independence Day was celebrated in the school and in the Kalpataru Grounds with
+               lot of zeal and enthusiasm. <br>
+               About 260 high school students participated in the Taluk Level Patriotic Dance
+               Competition at the Kalpataru Stadium &amp; bagged the first prize.
+               Our School Troop (Boys) bagged 2 nd prize in the March-Past Competition.
+              </div>
+              <a href="August.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="swiper-slide">
+          <div class="card border-0 shadow-sm h-100">
+            <img src="img/pocso.jpg" class="card-img-top" alt="Counselling">
+            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+              <h4> Verbattle Speech Competition Finals</h4>
+              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                On 3<sup>rd</sup> Sept – The students showcased their excellent speaking skill standing tall against the
+                well-known and reputed schools at the Verbattle Speech Competition Finals held in
+                Bengaluru. They have made the school proud by bagging 2 nd and 3 rd prize in both
+                Kannada and English Speech Competitions.
+                English Speech Competition:
+                Aryan Prakash 2 nd Prize
+                Varsha Patel 3 rd Prize
+                Kannada Speech Competition:
+                Kaveri M 2 nd Prize
+                Harshil S Hadimani 3 rd Prize.
+              </div>
+              <a href="Septmeber.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+            </div>
+          </div>
+        </div>
+
       </div>
+      <!-- Swiper Buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- Swiper End -->
     </div>
   </div>
+</div>
+
+
+<style>
+  @media (max-width: 576px) {
+    .card-body .btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+</style>
 
   <!-- Footer Start -->
-  <div class="container-fluid bg-dark text-white mt-1 py-5 px-sm-3 px-md-5">
+  <div class="container-fluid bg-dark text-white mt-0 py-5 px-sm-3 px-md-5">
     <div class="row pt-5">
       <div class="col-lg-3 col-md-6 mb-5 ">
         <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 px-5"
@@ -691,21 +563,32 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+
+      <!-- Other libraries -->
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <!-- <script src="mail/jqBootstrapValidation.min.js"></script> -->
+<!-- Required jQuery plugins -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-appear/0.4.1/jquery.appear.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+
+    
     <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>.
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -739,6 +622,8 @@
         }
       });
     </script>
+
+   
 
 </body>
 

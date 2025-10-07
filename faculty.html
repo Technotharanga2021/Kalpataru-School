@@ -1,146 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Kalpataru Central School Tiptur | Our Faculty</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="description" content="Meet the dedicated and experienced faculty at Kalpataru Central School. Our CBSE-certified educators focus on student growth and academic excellence.">
-    <meta name="keywords" content="KCS Faculty, Kalpataru Teachers, CBSE Educators, Teaching Staff, Qualified School Teachers, Experienced Educators Tiptur">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Kalpataru Central School Tiptur | Our Faculty</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description"
+    content="Meet the dedicated and experienced faculty at Kalpataru Central School. Our CBSE-certified educators focus on student growth and academic excellence.">
+  <meta name="keywords"
+    content="KCS Faculty, Kalpataru Teachers, CBSE Educators, Teaching Staff, Qualified School Teachers, Experienced Educators Tiptur">
 
 
-    <!-- Favicon -->
-    <link href="img/logo bg.png" rel="icon" />
+  <!-- Favicon -->
+  <link href="img/logo bg.png" rel="icon" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet"/>
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet" />
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
 
-    <!-- Flaticon Font -->
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+  <!-- Flaticon Font -->
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/stylek.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/stylek.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 
-<!-- Teacher Stats Custom Styles -->
-<style>
-  body {
-    /* font-family: 'Poppins', sans-serif; */
-    background-color: #f4f7fa;
+
+  <!-- Teacher Stats Custom Styles -->
+  <style>
+    .img-hero {
+  width: 100%;
+  height: 450px;        /* default desktop height */
+  object-fit: cover;    /* fills container without distortion */
+  object-position: center;
+}
+
+@media (max-width: 992px) {
+  .img-hero {
+    height: 400px;      /* tablet height */
   }
+}
 
-  #teacher-stats {
-    padding: 60px 0;
-    background: linear-gradient(to right, #fdfbfb, #ebedee);
+@media (max-width: 576px) {
+  .img-hero {
+    height: 250px;      /* mobile height */
   }
+}
 
-  .stat-box {
-    background: linear-gradient(135deg, #ffffff, #f0f0f0);
-    border-radius: 15px;
-    padding: 30px 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.overlay h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .overlay h2 {
+    font-size: 36px;
   }
+}
 
-  .stat-box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+@media (max-width: 576px) {
+  .overlay h2 {
+    font-size: 28px;
   }
+}
 
-  .stat-icon {
-    font-size: 2.8rem;
-    margin-bottom: 15px;
-    color: #4e73df;
-  }
-
-  .stat-number {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #333;
-    display: inline-block;
-  }
-
-  .plus {
-    font-size: 2rem;
-    color: #4e73df;
-    font-weight: bold;
-    margin-left: 4px;
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .stat-label {
-    font-size: 1.1rem;
-    color: #666;
-    margin-top: 8px;
-    line-height: 1.4;
-  }
-
-  @media (max-width: 576px) {
-    .stat-box {
-      margin-bottom: 20px;
+    body {
+      /* font-family: 'Poppins', sans-serif; */
+      background-color: #f4f7fa;
     }
-  }
-</style>
 
-  </head>
+    #teacher-stats {
+      padding: 60px 0;
+      background: linear-gradient(to right, #fdfbfb, #ebedee);
+    }
 
-  <body>
-   <!-- Navbar Start -->
+    .stat-box {
+      background: linear-gradient(135deg, #ffffff, #f0f0f0);
+      border-radius: 15px;
+      padding: 30px 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .stat-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .stat-icon {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+      color: #4e73df;
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #333;
+      display: inline-block;
+    }
+
+    .plus {
+      font-size: 2rem;
+      color: #4e73df;
+      font-weight: bold;
+      margin-left: 4px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .stat-label {
+      font-size: 1.1rem;
+      color: #666;
+      margin-top: 8px;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 576px) {
+      .stat-box {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Navbar Start -->
   <div class="container-fluid bg-light position-relative shadow px-4">
-  <nav class="navbar navbar-expand-lg navbar-light py-3">
-    <!-- Logo -->
-    <a href="#" class="navbar-brand">
-      <img src="img/logo_full1- bg.png" alt="Logo" class="img-fluid" style="max-width: 300px;">
-    </a>
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <!-- Logo -->
+      <a href="#" class="navbar-brand">
+        <img src="img/logo_full1- bg.png" alt="Logo" class="img-fluid" style="max-width: 300px;">
+      </a>
 
-    <!-- Toggler for Mobile -->
-    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Toggler for Mobile -->
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Navbar Links -->
+      <!-- Navbar Links -->
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ml-auto font-weight-bold text-center text-lg-left">
           <a href="index.html" class="nav-item nav-link">Home</a>
           <a href="about.html" class="nav-item nav-link">About KCS</a>
           <!-- Events dropdown -->
-            <div class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="eventsDropdown" role="button" 
-              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
-                <div class="dropdown-menu" aria-labelledby="eventsDropdown">
-                  <a class="dropdown-item" href="April.html">April</a>
-                  <a class="dropdown-item" href="May.html">May</a>
-                  <a class="dropdown-item" href="June.html">June</a>
-                  <a class="dropdown-item" href="July.html">July</a>
-                  <a class="dropdown-item" href="August.html">August</a>
-                  <a class="dropdown-item" href="Septmeber.html">September</a>
-                  <a class="dropdown-item" href="October.html">October</a>
-                  <a class="dropdown-item" href="November.html">November</a>
-                  <a class="dropdown-item" href="December.html">December</a>
-                  <a class="dropdown-item" href="January.html">January</a>
-                  <a class="dropdown-item" href="Febraury.html">Febraruy</a>
-                  <a class="dropdown-item" href="March.html">March</a>
-                </div>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="eventsDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Events</a>
+            <div class="dropdown-menu" aria-labelledby="eventsDropdown">
+              <a class="dropdown-item" href="April.html">April</a>
+              <a class="dropdown-item" href="May.html">May</a>
+              <a class="dropdown-item" href="June.html">June</a>
+              <a class="dropdown-item" href="July.html">July</a>
+              <a class="dropdown-item" href="August.html">August</a>
+              <a class="dropdown-item" href="Septmeber.html">September</a>
+              <a class="dropdown-item" href="October.html">October</a>
+              <a class="dropdown-item" href="November.html">November</a>
+              <a class="dropdown-item" href="December.html">December</a>
+              <a class="dropdown-item" href="January.html">January</a>
+              <a class="dropdown-item" href="Febraury.html">Febraruy</a>
+              <a class="dropdown-item" href="March.html">March</a>
             </div>
+          </div>
           <a href="academics.html" class="nav-item nav-link">Academics</a>
           <a href="faculty.html" class="nav-item nav-link active">Faculty</a>
           <a href="fees.html" class="nav-item nav-link">Fee Structure</a>
@@ -153,1255 +191,1254 @@
   </div>
   <!-- navbar end -->
 
-          <!-- About Start -->
-  <div class="container-fluid py-5" style="background: url('img/allstaff.jpg') no-repeat center center; background-size: cover; height: 560px;">
-  <div class="container">
-    <div class="row align-items-center">
-     
-      <div class="card-body-1" >
-        <h2 class="card-title" style="text-align: center; font-size: 50px;"><b>Our Faculty</b></h2>
-      </div>
-    </div>
-     
-    </div>
+  <!-- About Start -->
+ <div class="container-fluid hero-about position-relative p-0">
+  <img src="img/allstaff.jpg" class="img-hero w-100" alt="Our Faculty">
+
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex  justify-content-center align-content-end">
+    <h2 class="display-3 font-weight-bold  text-center pt-5 mt-5" style="color: #FF9100;">Our Faculty</h2>
   </div>
 </div>
 
   <!-- About End -->
-<!-- disigne section -->
- <!-- 🌟 Teacher Stats Section -->
-<section id="teacher-stats" style="background: linear-gradient(to left, rgba(254, 157, 1, 0.763), rgba(254, 157, 1, 0.1));">
-  <div class="container">
-    <h2 class="text-center mb-5 " style="color: #ff9100"><b>Our Teaching Strength</b></h2>
-    <div class="row g-4 justify-content-center">
+  <!-- disigne section -->
+  <!-- 🌟 Teacher Stats Section -->
+  <section id="teacher-stats"
+    style="background: linear-gradient(to left, rgba(254, 157, 1, 0.763), rgba(254, 157, 1, 0.1));">
+    <div class="container">
+      <h2 class="text-center mb-5 " style="color: #ff9100"><b>Our Teaching Strength</b></h2>
+      <div class="row g-4 justify-content-center">
 
-      <!-- Stat 1 -->
-      <div class="col-6 col-md-4 col-lg-3 d-flex">
-        <div class="stat-box w-100">
-          <div class="stat-icon">👩‍🏫</div>
-          <div><span class="stat-number count" data-target="60">0</span><span class="plus">+</span></div>
-          <div class="stat-label">Dedicated Teachers</div>
+        <!-- Stat 1 -->
+        <div class="col-6 col-md-4 col-lg-3 d-flex">
+          <div class="stat-box w-100">
+            <div class="stat-icon">👩‍🏫</div>
+            <div><span class="stat-number count" data-target="60">0</span><span class="plus">+</span></div>
+            <div class="stat-label">Dedicated Teachers</div>
+          </div>
         </div>
-      </div>
 
-      <!-- Stat 2 -->
-      <div class="col-6 col-md-4 col-lg-3 d-flex">
-        <div class="stat-box w-100">
-          <div class="stat-icon">🧠</div>
-          <div><span class="stat-number count" data-target="12">0</span><span class="plus">+</span></div>
-          <div class="stat-label">Avg. Years of Experience</div>
+        <!-- Stat 2 -->
+        <div class="col-6 col-md-4 col-lg-3 d-flex">
+          <div class="stat-box w-100">
+            <div class="stat-icon">🧠</div>
+            <div><span class="stat-number count" data-target="12">0</span><span class="plus">+</span></div>
+            <div class="stat-label">Avg. Years of Experience</div>
+          </div>
         </div>
-      </div>
 
-      <!-- Stat 3 -->
-      <div class="col-6 col-md-4 col-lg-3 d-flex">
-        <div class="stat-box w-100">
-          <div class="stat-icon">🎓</div>
-          <div><span class="stat-number count" data-target="95">0</span><span class="plus">%</span></div>
-          <div class="stat-label">Teachers with B.Ed or Higher</div>
+        <!-- Stat 3 -->
+        <div class="col-6 col-md-4 col-lg-3 d-flex">
+          <div class="stat-box w-100">
+            <div class="stat-icon">🎓</div>
+            <div><span class="stat-number count" data-target="95">0</span><span class="plus">%</span></div>
+            <div class="stat-label">Teachers with B.Ed or Higher</div>
+          </div>
         </div>
-      </div>
 
-      <!-- Stat 4 -->
-      <div class="col-6 col-md-4 col-lg-3 d-flex">
-        <div class="stat-box w-100">
-          <div class="stat-icon">🏆</div>
-          <div><span class="stat-number count" data-target="100">0</span><span class="plus">%</span></div>
-          <div class="stat-label">Child-Centered Training Completed</div>
+        <!-- Stat 4 -->
+        <div class="col-6 col-md-4 col-lg-3 d-flex">
+          <div class="stat-box w-100">
+            <div class="stat-icon">🏆</div>
+            <div><span class="stat-number count" data-target="100">0</span><span class="plus">%</span></div>
+            <div class="stat-label">Child-Centered Training Completed</div>
+          </div>
         </div>
-      </div>
 
-      <!-- Stat 5 -->
-      <div class="col-6 col-md-4 col-lg-3 d-flex">
-        <div class="stat-box w-100">
-          <div class="stat-icon">📚</div>
-          <div><span class="stat-number count" data-target="10">0</span><span class="plus">+</span></div>
-          <div class="stat-label">Subjects Covered</div>
+        <!-- Stat 5 -->
+        <div class="col-6 col-md-4 col-lg-3 d-flex">
+          <div class="stat-box w-100">
+            <div class="stat-icon">📚</div>
+            <div><span class="stat-number count" data-target="10">0</span><span class="plus">+</span></div>
+            <div class="stat-label">Subjects Covered</div>
+          </div>
         </div>
-      </div>
 
-      <!-- Stat 6 -->
-      <div class="col-6 col-md-4 col-lg-3 d-flex">
-        <div class="stat-box w-100">
-          <div class="stat-icon">🏫</div>
-          <div><span class="stat-number count" data-target="60">0</span><span class="plus">+</span></div>
-          <div class="stat-label">Years Serving Education</div>
+        <!-- Stat 6 -->
+        <div class="col-6 col-md-4 col-lg-3 d-flex">
+          <div class="stat-box w-100">
+            <div class="stat-icon">🏫</div>
+            <div><span class="stat-number count" data-target="60">0</span><span class="plus">+</span></div>
+            <div class="stat-label">Years Serving Education</div>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-    
-    <!-- Facilities Start -->
-    <section id="Staffdetails" class="py-5" style="background: linear-gradient(to right, rgba(254, 157, 1, 0.763), rgba(254, 157, 1, 0.1));">
-      <div class="container1">
-        <div class="row justify-content-center">
-          <div class="text-center pb-2">
+
+  <!-- Facilities Start -->
+  <section id="Staffdetails" class="py-5"
+    style="background: linear-gradient(to right, rgba(254, 157, 1, 0.763), rgba(254, 157, 1, 0.1));">
+    <div class="container1">
+      <div class="row justify-content-center">
+        <div class="text-center pb-2">
           <h1 class="mb-4" style="color: #ff9100"><b>Meet Our Teachers</b></h1>
-          <p class="card-text" style="text-align: center;"> Our Faculty consists of experinced educators who bring subject expertise, innovative teaching practices, and compassion into classroom. Continous professional development ensures they remain updated with moderen pedagogical trends.</p>
+          <p class="card-text" style="text-align: center;"> Our Faculty consists of experinced educators who bring
+            subject expertise, innovative teaching practices, and compassion into classroom. Continous professional
+            development ensures they remain updated with moderen pedagogical trends.</p>
         </div>
-          <!-- CARD 1 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #ff9100;">
-                <div class="inner1">
-                  <p>Devika B Swamy</p>
-                </div>
+        <!-- CARD 1 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #ff9100;">
+              <div class="inner1">
+                <p>Devika B Swamy</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>Principal</p>
-                  <p>M.A, M.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>Principal</p>
+                <p>M.A, M.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 2 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Manjanna</p>
-                </div>
+        <!-- CARD 2 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Manjanna</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.Com, BFA</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.Com, BFA</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 3 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Sunitha Praveen</p>
-                </div>
+        <!-- CARD 3 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Sunitha Praveen</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.E</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.E</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 4 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Latha T S</p>
-                </div>
+        <!-- CARD 4 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Latha T S</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>D.CA, PG.D.CA, MTT</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>D.CA, PG.D.CA, MTT</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 5 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Asha Shivashankar</p>
-                </div>
+        <!-- CARD 5 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Asha Shivashankar</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.A(English), DMTTC</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.A(English), DMTTC</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 6 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Vasanthi Naidu</p>
-                </div>
+        <!-- CARD 6 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Vasanthi Naidu</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 7 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Soumya S</p>
-                </div>
+        <!-- CARD 7 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Soumya S</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 8 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Shwetha T N</p>
-                </div>
+        <!-- CARD 8 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Shwetha T N</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 9 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Shanthala S</p>
-                </div>
+        <!-- CARD 9 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Shanthala S</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.A, NTT</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.A, NTT</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 10 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Chowramma J</p>
-                </div>
+        <!-- CARD 10 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Chowramma J</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.A, B.Ed, NST, TCH</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.A, B.Ed, NST, TCH</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 11 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Bharathi S T</p>
-                </div>
+        <!-- CARD 11 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Bharathi S T</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 12 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Yashwanth T S</p>
-                </div>
+        <!-- CARD 12 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Yashwanth T S</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 13 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Nagamani C R</p>
-                </div>
+        <!-- CARD 13 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Nagamani C R</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 14 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Roopa R</p>
-                </div>
+        <!-- CARD 14 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Roopa R</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.A, D.El.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.A, D.El.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 15 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Rani M R</p>
-                </div>
+        <!-- CARD 15 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Rani M R</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>IMTC</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>IMTC</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 16 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Asha M</p>
-                </div>
+        <!-- CARD 16 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Asha M</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.Sc, B.Ed,IMTC</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.Sc, B.Ed,IMTC</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 17 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Srinivas P</p>
-                </div>
+        <!-- CARD 17 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Srinivas P</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.E, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.E, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 18 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Purohit Rekha Harish</p>
-                </div>
+        <!-- CARD 18 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Purohit Rekha Harish</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.A, B.Ed, <br>ECCED, MTT</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.A, B.Ed, <br>ECCED, MTT</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 19 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Shruthi B R</p>
-                </div>
+        <!-- CARD 19 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Shruthi B R</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 20 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Hurrumana</p>
-                </div>
+        <!-- CARD 20 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Hurrumana</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.Com, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.Com, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 21 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Sunitha R N</p>
-                </div>
+        <!-- CARD 21 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Sunitha R N</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.Com, B.Ed, NTT</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.Com, B.Ed, NTT</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 22 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Prathima M C</p>
-                </div>
+        <!-- CARD 22 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Prathima M C</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.E</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.E</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 23 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Rekha H G</p>
-                </div>
+        <!-- CARD 23 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Rekha H G</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.A, D.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.A, D.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 24 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Lathamani M K</p>
-                </div>
+        <!-- CARD 24 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Lathamani M K</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.Sc, D.Ed, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.Sc, D.Ed, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 25 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Suma V Deep</p>
-                </div>
+        <!-- CARD 25 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Suma V Deep</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 26 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Bhuvaneshwari V S</p>
-                </div>
+        <!-- CARD 26 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Bhuvaneshwari V S</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 27 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Kubra Afshan</p>
-                </div>
+        <!-- CARD 27 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Kubra Afshan</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>Dip in Art & Craft, <br>ADFT</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>Dip in Art & Craft, <br>ADFT</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 28 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Triveni S V</p>
-                </div>
+        <!-- CARD 28 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Triveni S V</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 29 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Chaithra T G</p>
-                </div>
+        <!-- CARD 29 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Chaithra T G</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.E</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.E</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 30 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Ashwini M B</p>
-                </div>
+        <!-- CARD 30 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Ashwini M B</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.E, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.E, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 31 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Shahawar Sulthana</p>
-                </div>
+        <!-- CARD 31 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Shahawar Sulthana</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 32 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Amitha J Shekhar</p>
-                </div>
+        <!-- CARD 32 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Amitha J Shekhar</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>M.Com</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>M.Com</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 33 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Deepali</p>
-                </div>
+        <!-- CARD 33 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Deepali</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PRT</p>
-                  <p>B.Com, DCA</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PRT</p>
+                <p>B.Com, DCA</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 34 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Anitha H C</p>
-                </div>
+        <!-- CARD 34 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Anitha H C</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 35 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Syed Nooruddin</p>
-                </div>
+        <!-- CARD 35 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Syed Nooruddin</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.A(History), <br> M.A(Hindi),<br> B.Ed, PG.Dip</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.A(History), <br> M.A(Hindi),<br> B.Ed, PG.Dip</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 36 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Shubha B M</p>
-                </div>
+        <!-- CARD 36 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Shubha B M</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>B.A, M.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>B.A, M.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 37 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Renukaradhya M M</p>
-                </div>
+        <!-- CARD 37 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Renukaradhya M M</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 38 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Dhanalakshmi C D</p>
-                </div>
+        <!-- CARD 38 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Dhanalakshmi C D</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 39 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Annapoorna A</p>
-                </div>
+        <!-- CARD 39 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Annapoorna A</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 40 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Ramakrishna</p>
-                </div>
+        <!-- CARD 40 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Ramakrishna</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 41 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Manjunath T N</p>
-                </div>
+        <!-- CARD 41 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Manjunath T N</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 42 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Asha S M</p>
-                </div>
+        <!-- CARD 42 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Asha S M</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 43 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Preetha D A</p>
-                </div>
+        <!-- CARD 43 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Preetha D A</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.A, CTTC</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.A, CTTC</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 44 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Kala N</p>
-                </div>
+        <!-- CARD 44 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Kala N</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>B.Com, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>B.Com, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 45 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Suneetha H S</p>
-                </div>
+        <!-- CARD 45 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Suneetha H S</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>B.Sc, B.Ed(Hindi), M.A(Hindi)</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>B.Sc, B.Ed(Hindi), M.A(Hindi)</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 46 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Burhra Kausar</p>
-                </div>
+        <!-- CARD 46 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Burhra Kausar</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 47 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Mallikarjuna Swamy M C</p>
-                </div>
+        <!-- CARD 47 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Mallikarjuna Swamy M C</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 48 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Jinith Kumar N V</p>
-                </div>
+        <!-- CARD 48 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Jinith Kumar N V</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed, K.Set</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed, K.Set</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 49 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Vijay Kumar H B</p>
-                </div>
+        <!-- CARD 49 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Vijay Kumar H B</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>B.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>B.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 50 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Swetha N P</p>
-                </div>
+        <!-- CARD 50 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Swetha N P</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 51 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Sahana M</p>
-                </div>
+        <!-- CARD 51 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Sahana M</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 52 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Sushma N</p>
-                </div>
+        <!-- CARD 52 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Sushma N</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 53 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Madhushree V</p>
-                </div>
+        <!-- CARD 53 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Madhushree V</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 54 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Bhavani H N</p>
-                </div>
+        <!-- CARD 54 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Bhavani H N</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.A, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.A, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 55 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Toufeeq</p>
-                </div>
+        <!-- CARD 55 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Toufeeq</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>B.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>B.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 56 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Shila G P</p>
-                </div>
+        <!-- CARD 56 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Shila G P</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 57 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>T L Chinmayi</p>
-                </div>
+        <!-- CARD 57 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>T L Chinmayi</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 58 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Durgadevi P</p>
-                </div>
+        <!-- CARD 58 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Durgadevi P</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, M.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, M.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 59 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Tejaswini M H</p>
-                </div>
+        <!-- CARD 59 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Tejaswini M H</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>B.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>B.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 60 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Shreeja M N</p>
-                </div>
+        <!-- CARD 60 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Shreeja M N</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>TGT</p>
-                  <p>M.Sc, B.Ed</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>TGT</p>
+                <p>M.Sc, B.Ed</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 61 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Siddegowda H L</p>
-                </div>
+        <!-- CARD 61 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Siddegowda H L</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PTI</p>
-                  <p>B.A, B.PEd</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PTI</p>
+                <p>B.A, B.PEd</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 62 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Appegowdaswamy M</p>
-                </div>
+        <!-- CARD 62 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Appegowdaswamy M</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PTI</p>
-                  <p>B.A, M.PEd</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PTI</p>
+                <p>B.A, M.PEd</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 63 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Chandrashekar G</p>
-                </div>
+        <!-- CARD 63 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Chandrashekar G</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PTI</p>
-                  <p>B.A, M.PEd</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PTI</p>
+                <p>B.A, M.PEd</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 64 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Mohan Kumar M</p>
-                </div>
+        <!-- CARD 64 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Mohan Kumar M</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PTI</p>
-                  <p>B.Com, B.PEd</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PTI</p>
+                <p>B.Com, B.PEd</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 65 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Rakesh B S</p>
-                </div>
+        <!-- CARD 65 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Rakesh B S</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>PTI</p>
-                  <p>BBM, M.PEd, PGDY</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>PTI</p>
+                <p>BBM, M.PEd, PGDY</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 66 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Dhananjaya K G</p>
-                </div>
+        <!-- CARD 66 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Dhananjaya K G</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>Librarian</p>
-                  <p>B.A, M.Lib</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>Librarian</p>
+                <p>B.A, M.Lib</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 67 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Padma J R</p>
-                </div>
+        <!-- CARD 67 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Padma J R</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>Librarian</p>
-                  <p>B.Sc, M.Lib, MLISC</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>Librarian</p>
+                <p>B.Sc, M.Lib, MLISC</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- CARD 68 -->
-          <div class="col-md-5 col-lg-2 text-center mb-4">
-            <div class="contain" ontouchstart="this.classList.toggle('hover');">
-              <div class="front1" style="background-color: #FF9100;">
-                <div class="inner1">
-                  <p>Dr. Vinutha H A</p>
-                </div>
+        <!-- CARD 68 -->
+        <div class="col-md-5 col-lg-2 text-center mb-4">
+          <div class="contain" ontouchstart="this.classList.toggle('hover');">
+            <div class="front1" style="background-color: #FF9100;">
+              <div class="inner1">
+                <p>Dr. Vinutha H A</p>
               </div>
-              <div class="back1">
-                <div class="inner1">
-                  <p>Counsellor</p>
-                  <p>M.Sc, B.Ed, Ph.D</p>
-                </div>
+            </div>
+            <div class="back1">
+              <div class="inner1">
+                <p>Counsellor</p>
+                <p>M.Sc, B.Ed, Ph.D</p>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
-    </section>
-    <!-- Team Start -->
-    <!-- <div class="container-fluid pt-5">
+    </div>
+  </section>
+  <!-- Team Start -->
+  <!-- <div class="container-fluid pt-5">
       <div class="container">
         <div class="text-center pb-2">
           <h1 class="mb-4">Meet Our Teachers</h1>
@@ -1409,544 +1446,544 @@
         <div class="row" style="flex-wrap: wrap; justify-content: center;">
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4"style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-            <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Devika B Swamy</h4>
             <i>Principal</i><br>
             <i>M.A, M.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-            <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Manjanna</h4>
             <i>PRT</i><br>
             <i>B.Com, BFA</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-            <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sunitha Praveen</h4>
             <i>PRT</i><br>
             <i>B.E</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Latha T S</h4>
             <i>PRT</i><br>
             <i>Dip in Comp, PGDCA, Montessori Training Course</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Asha Shivashankar</h4>
             <i>PRT</i><br>
             <i>M.A(English), Dip in Montessori</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Vasanthi Naidu</h4>
             <i>PRT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Soumya S</h4>
             <i>PRT</i><br>
             <i>B.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shwetha T N</h4>
             <i>PRT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shanthala S</h4>
             <i>PRT</i><br>
             <i>M.A, NTT</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Chowramma J</h4>
             <i>PRT</i><br>
             <i>M.A, B.Ed, NST, TCH</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bharathi S T</h4>
             <i>PRT</i><br>
             <i>B.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Yashwanth T S</h4>
             <i>PRT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Nagamani C R</h4>
             <i>PRT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Roopa R</h4>
             <i>PRT</i><br>
             <i>B.A, DLED, Dip in Elementary Education</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Rani M R</h4>
             <i>PRT</i><br>
             <i>IMTC</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Asha M</h4>
             <i>PRT</i><br>
             <i>B.Sc, B.Ed, IMTC</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Srinivas P</h4>
             <i>PRT</i><br>
             <i>B.E, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Purohit Rekha Harish</h4>
             <i>PRT</i><br>
             <i>B.A, B.Ed, ECCED Montessori Training Course</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shruthi B R</h4>
             <i>PRT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Hurrumana</h4>
             <i>PRT</i><br>
             <i>M.Com, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sunitha R N</h4>
             <i>PRT</i><br>
             <i>B.Com, B.Ed, NTT</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Prathima M C</h4>
             <i>PRT</i><br>
             <i>B.E</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Rekha H G</h4>
             <i>PRT</i><br>
             <i>B.A, D.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Lathamani M K</h4>
             <i>PRT</i><br>
             <i>B.Sc, D.Ed, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Suma V Deep</h4>
             <i>PRT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bhuvaneshwari V S</h4>
             <i>PRT</i><br>
             <i>B.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Kubra Afshan</h4>
             <i>PRT</i><br>
             <i>Dip in Art & Craft, ADFT</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Triveni S V</h4>
             <i>PRT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Chaithra T G</h4>
             <i>PRT</i><br>
             <i>B.E</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ashwini M B</h4>
             <i>PRT</i><br>
             <i>B.E, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shahawar Sulthana</h4>
             <i>PRT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Amitha J Shekhar</h4>
             <i>PRT</i><br>
             <i>M.Com</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Deepali</h4>
             <i>PRT</i><br>
             <i>B.Com, DCA</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Anitha H C</h4>
             <i>TGT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Syed Nooruddin</h4>
             <i>TGT</i><br>
             <i>M.A(History), M.A(Hindi), B.Ed, PG Diploma</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shubha B M</h4>
             <i>TGT</i><br>
             <i>B.A, M.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Renukaradhya M M</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Dhanalakshmi C D</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Annapoorna A</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ramakrishna</h4>
             <i>TGT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Manjunath T N</h4>
             <i>TGT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Asha S M</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Preetha D A</h4>
             <i>TGT</i><br>
             <i>M.A, CTTC</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Kala N</h4>
             <i>TGT</i><br>
             <i>B.Com, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Suneetha H S</h4>
             <i>TGT</i><br>
             <i>B.Sc, B.Ed(Hindi), M.A(Hindi) </i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bushra Kausar</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Mallikarjuna Swamy M C </h4>
             <i>TGT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Jinith Kumar N V</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed, K.Set</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Vijay Kumar H B</h4>
             <i>TGT</i><br>
             <i>B.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Swetha N P</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sahana N</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sushma N</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Madhushree V</h4>
             <i>TGT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bhavani H N</h4>
             <i>TGT</i><br>
             <i>M.A, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Toufeeq</h4>
             <i>TGT</i><br>
             <i>B.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shilpa G P</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">T L Chinmayi</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Durgadevi P</h4>
             <i>TGT</i><br>
             <i>M.Sc, M.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Tejaswini M H</h4>
             <i>TGT</i><br>
             <i>B.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Shreeja M N</h4>
             <i>TGT</i><br>
             <i>M.Sc, B.Ed</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Siddegowda H L</h4>
             <i>PTI</i><br>
             <i>B.A, B.PEd</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Appegowdaswamy M</h4>
             <i>PTI</i><br>
             <i>B.A, M.PEd</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Chandrashekar G</h4>
             <i>PTI</i><br>
             <i>B.A, M.PEd</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Mohan Kumar M</h4>
             <i>PTI</i><br>
             <i>B.Com, B.PEd</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Rakesh B S</h4>
             <i>PTI</i><br>
             <i>BBM, M.PEd, PGDY</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Dhananjaya K G</h4>
             <i>Librarian</i><br>
             <i>B.A, M.Lib</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Padma J R</h4>
             <i>Librarian</i><br>
             <i>B.Sc, M.Lib, MLISC</i>
           </div>
           <div class="col-md-6 col-lg-2 text-center team mb-5">
             <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%"> -->
-              <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
-              <!-- </div>
+  <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt="" /> -->
+  <!-- </div>
             <h4 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Dr.Vinutha H A</h4>
             <i>Counsellor</i><br>
             <i>M.Sc, B.Ed, Ph.D</i>
@@ -1954,17 +1991,17 @@
         </div>
       </div>
     </div> -->
-    <!-- Team End -->
+  <!-- Team End -->
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
     <div class="row pt-5">
       <div class="col-lg-3 col-md-6 mb-5 ">
         <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 px-5"
           style="font-size: 40px; line-height: 40px">
           <img src="img/logo bg.png" width="100%" alt="">
           <!-- <span class="text-white">KidKinder</span> -->
-           
+
 
         </a>
         <p>
@@ -1991,7 +2028,7 @@
           <div class="pl-3">
             <!-- <h5 class="" style="color: #FF9100;">Address</h5> -->
             <p>Kalpataru Central School, <br> Vidyanagar, B. H. Road,<br>
-            Tiptur, Karnataka-572201,<br> INDIA</p>
+              Tiptur, Karnataka-572201,<br> INDIA</p>
           </div>
         </div>
         <div class="d-flex">
@@ -2006,7 +2043,7 @@
           <div class="pl-3">
             <!-- <h5 class="text-white">Phone</h5> -->
             <p>principal :+91 9008647062 <br>
-            Office :08134-253504</p>
+              Office :08134-253504</p>
           </div>
         </div>
       </div>
@@ -2049,70 +2086,67 @@
       </p>
     </div>
   </div>
-  
-    <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary p-3 back-to-top"
-      ><i class="fa fa-angle-double-up"></i
-    ></a>
+  <!-- Footer End -->
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
 
 
-<!-- Scroll Count-Up Script -->
-<script>
-  function animateCountUp(el) {
-    const target = +el.getAttribute('data-target');
-    const duration = 1500;
-    const stepTime = Math.max(Math.floor(duration / target), 20);
-    let count = 0;
+  <!-- Scroll Count-Up Script -->
+  <script>
+    function animateCountUp(el) {
+      const target = +el.getAttribute('data-target');
+      const duration = 1500;
+      const stepTime = Math.max(Math.floor(duration / target), 20);
+      let count = 0;
 
-    const timer = setInterval(() => {
-      count++;
-      el.textContent = count;
-      if (count >= target) {
-        clearInterval(timer);
-        el.textContent = target;
-      }
-    }, stepTime);
-  }
+      const timer = setInterval(() => {
+        count++;
+        el.textContent = count;
+        if (count >= target) {
+          clearInterval(timer);
+          el.textContent = target;
+        }
+      }, stepTime);
+    }
 
-  function handleScrollAnimation() {
-    const counters = document.querySelectorAll('.count');
-    const triggerBottom = window.innerHeight;
+    function handleScrollAnimation() {
+      const counters = document.querySelectorAll('.count');
+      const triggerBottom = window.innerHeight;
 
-    counters.forEach(counter => {
-      const top = counter.getBoundingClientRect().top;
+      counters.forEach(counter => {
+        const top = counter.getBoundingClientRect().top;
 
-      if (top < triggerBottom && !counter.classList.contains('counted')) {
-        counter.classList.add('counted');
-        animateCountUp(counter);
-      }
-    });
-  }
+        if (top < triggerBottom && !counter.classList.contains('counted')) {
+          counter.classList.add('counted');
+          animateCountUp(counter);
+        }
+      });
+    }
 
-  window.addEventListener('scroll', handleScrollAnimation);
-  window.addEventListener('load', handleScrollAnimation);
-</script>
+    window.addEventListener('scroll', handleScrollAnimation);
+    window.addEventListener('load', handleScrollAnimation);
+  </script>
 
-  </body>
+</body>
+
 </html>

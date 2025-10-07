@@ -41,6 +41,25 @@
       crossorigin="anonymous"
     />
     <style>
+      .img-hero {
+  width: 100%;
+  height: 450px;        /* default desktop height */
+  object-fit: cover;    /* covers the container without distortion */
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .img-hero {
+    height: 350px;      /* tablet height */
+  }
+}
+
+@media (max-width: 576px) {
+  .img-hero {
+    height: 250px;      /* mobile height */
+  }
+}
+
 /* Public Disclosure Cards Styles */
 .public-disclosure-container {
   padding: 40px 15px;
@@ -196,12 +215,13 @@
   <!-- navbar end -->
 
     <!-- Header Start -->
-    <div class="container-fluid hero-about position-relative img-fluid " style="background: url('img/public1.jpg') no-repeat ; background-size: cover; height: 450px;">
-      <div class="overlay">
-        
-      </div>
-    </div>
+<div class="container-fluid hero-about position-relative p-0">
+  <img src="img/public1.jpg" class="img-hero w-100" alt="Public Disclosure">
 
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+    <!-- You can add text here if needed -->
+  </div>
+</div>
     <!-- Header End -->
     <section class="public-disclosure-container " style="background: linear-gradient(to left, rgba(254, 157, 1, 0.763), rgba(254, 157, 1, 0.1));">
   <h2 class="public-disclosure-title">Public Disclosure Documents</h2>

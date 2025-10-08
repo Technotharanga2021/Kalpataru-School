@@ -41,40 +41,44 @@
   <!-- Teacher Stats Custom Styles -->
   <style>
     .img-hero {
-  width: 100%;
-  height: 450px;        /* default desktop height */
-  object-fit: cover;    /* fills container without distortion */
-  object-position: center;
-}
+      width: 100%;
+      height: 450px;
+      /* default desktop height */
+      object-fit: cover;
+      /* fills container without distortion */
+      object-position: center;
+    }
 
-@media (max-width: 992px) {
-  .img-hero {
-    height: 400px;      /* tablet height */
-  }
-}
+    @media (max-width: 992px) {
+      .img-hero {
+        height: 400px;
+        /* tablet height */
+      }
+    }
 
-@media (max-width: 576px) {
-  .img-hero {
-    height: 250px;      /* mobile height */
-  }
-}
+    @media (max-width: 576px) {
+      .img-hero {
+        height: 250px;
+        /* mobile height */
+      }
+    }
 
-.overlay h2 {
-  text-align: center;
-  font-size: 50px;
-}
+    .overlay h2 {
+      text-align: center;
+      font-size: 50px;
+    }
 
-@media (max-width: 768px) {
-  .overlay h2 {
-    font-size: 36px;
-  }
-}
+    @media (max-width: 768px) {
+      .overlay h2 {
+        font-size: 36px;
+      }
+    }
 
-@media (max-width: 576px) {
-  .overlay h2 {
-    font-size: 28px;
-  }
-}
+    @media (max-width: 576px) {
+      .overlay h2 {
+        font-size: 28px;
+      }
+    }
 
     body {
       /* font-family: 'Poppins', sans-serif; */
@@ -137,6 +141,48 @@
         margin-bottom: 20px;
       }
     }
+    .teacher-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+.teacher-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Custom 5-column layout on large screens */
+@media (min-width: 1200px) {
+  .col-lg-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+/* 3 cards on medium (tablet) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+}
+
+/* 2 cards on small devices */
+@media (max-width: 767px) and (min-width: 576px) {
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* 1 card on very small devices */
+@media (max-width: 575px) {
+  .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
   </style>
 
 </head>
@@ -192,13 +238,13 @@
   <!-- navbar end -->
 
   <!-- About Start -->
- <div class="container-fluid hero-about position-relative p-0">
-  <img src="img/allstaff.jpg" class="img-hero w-100" alt="Our Faculty">
+  <div class="container-fluid hero-about position-relative p-0">
+    <img src="img/allstaff.jpg" class="img-hero w-100" alt="Our Faculty">
 
-  <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex  justify-content-center align-content-end">
-    <h2 class="display-3 font-weight-bold  text-center pt-5 mt-5" style="color: #FF9100;">Our Faculty</h2>
+    <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex  justify-content-center align-content-end">
+      <h2 class="display-3 font-weight-bold  text-center pt-5 mt-5" style="color: #FF9100;">Our Faculty</h2>
+    </div>
   </div>
-</div>
 
   <!-- About End -->
   <!-- disigne section -->
@@ -272,15 +318,17 @@
   <section id="Staffdetails" class="py-5"
     style="background: linear-gradient(to right, rgba(254, 157, 1, 0.763), rgba(254, 157, 1, 0.1));">
     <div class="container1">
+
+      <div class="text-center pb-2">
+        <h1 class="mb-4" style="color: #ff9100"><b>Meet Our Teachers</b></h1>
+        <p class="card-text" style="text-align: center;"> Our Faculty consists of experinced educators who bring
+          subject expertise, innovative teaching practices, and compassion into classroom. Continous professional
+          development ensures they remain updated with moderen pedagogical trends.</p>
+      </div>
+
       <div class="row justify-content-center">
-        <div class="text-center pb-2">
-          <h1 class="mb-4" style="color: #ff9100"><b>Meet Our Teachers</b></h1>
-          <p class="card-text" style="text-align: center;"> Our Faculty consists of experinced educators who bring
-            subject expertise, innovative teaching practices, and compassion into classroom. Continous professional
-            development ensures they remain updated with moderen pedagogical trends.</p>
-        </div>
         <!-- CARD 1 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #ff9100;">
               <div class="inner1">
@@ -297,7 +345,7 @@
         </div>
 
         <!-- CARD 2 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -314,7 +362,7 @@
         </div>
 
         <!-- CARD 3 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -331,7 +379,7 @@
         </div>
 
         <!-- CARD 4 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -348,7 +396,7 @@
         </div>
 
         <!-- CARD 5 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -358,14 +406,14 @@
             <div class="back1">
               <div class="inner1">
                 <p>PRT</p>
-                <p>M.A(English), DMTTC</p>
+                <p>M.A(English), <br> DMTTC</p>
               </div>
             </div>
           </div>
         </div>
 
         <!-- CARD 6 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -382,7 +430,7 @@
         </div>
 
         <!-- CARD 7 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -399,7 +447,7 @@
         </div>
 
         <!-- CARD 8 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -416,7 +464,7 @@
         </div>
 
         <!-- CARD 9 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -433,7 +481,7 @@
         </div>
 
         <!-- CARD 10 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -450,7 +498,7 @@
         </div>
 
         <!-- CARD 11 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -467,7 +515,7 @@
         </div>
 
         <!-- CARD 12 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -484,7 +532,7 @@
         </div>
 
         <!-- CARD 13 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -501,7 +549,7 @@
         </div>
 
         <!-- CARD 14 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -518,7 +566,7 @@
         </div>
 
         <!-- CARD 15 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -535,7 +583,7 @@
         </div>
 
         <!-- CARD 16 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -552,7 +600,7 @@
         </div>
 
         <!-- CARD 17 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -569,7 +617,7 @@
         </div>
 
         <!-- CARD 18 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -586,7 +634,7 @@
         </div>
 
         <!-- CARD 19 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -603,7 +651,7 @@
         </div>
 
         <!-- CARD 20 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -620,7 +668,7 @@
         </div>
 
         <!-- CARD 21 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -630,14 +678,14 @@
             <div class="back1">
               <div class="inner1">
                 <p>PRT</p>
-                <p>B.Com, B.Ed, NTT</p>
+                <p>B.Com, B.Ed,<br> NTT</p>
               </div>
             </div>
           </div>
         </div>
 
         <!-- CARD 22 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -654,7 +702,7 @@
         </div>
 
         <!-- CARD 23 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -671,7 +719,7 @@
         </div>
 
         <!-- CARD 24 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -688,7 +736,7 @@
         </div>
 
         <!-- CARD 25 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -705,7 +753,7 @@
         </div>
 
         <!-- CARD 26 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -722,7 +770,7 @@
         </div>
 
         <!-- CARD 27 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -739,7 +787,7 @@
         </div>
 
         <!-- CARD 28 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -756,7 +804,7 @@
         </div>
 
         <!-- CARD 29 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -773,7 +821,7 @@
         </div>
 
         <!-- CARD 30 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -790,7 +838,7 @@
         </div>
 
         <!-- CARD 31 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -807,7 +855,7 @@
         </div>
 
         <!-- CARD 32 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -824,7 +872,7 @@
         </div>
 
         <!-- CARD 33 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -841,7 +889,7 @@
         </div>
 
         <!-- CARD 34 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -858,7 +906,7 @@
         </div>
 
         <!-- CARD 35 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -875,7 +923,7 @@
         </div>
 
         <!-- CARD 36 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -892,7 +940,7 @@
         </div>
 
         <!-- CARD 37 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -909,7 +957,7 @@
         </div>
 
         <!-- CARD 38 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -926,7 +974,7 @@
         </div>
 
         <!-- CARD 39 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -943,7 +991,7 @@
         </div>
 
         <!-- CARD 40 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -960,7 +1008,7 @@
         </div>
 
         <!-- CARD 41 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -977,7 +1025,7 @@
         </div>
 
         <!-- CARD 42 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -994,7 +1042,7 @@
         </div>
 
         <!-- CARD 43 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1011,7 +1059,7 @@
         </div>
 
         <!-- CARD 44 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1028,7 +1076,7 @@
         </div>
 
         <!-- CARD 45 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1045,7 +1093,7 @@
         </div>
 
         <!-- CARD 46 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1062,7 +1110,7 @@
         </div>
 
         <!-- CARD 47 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1079,7 +1127,7 @@
         </div>
 
         <!-- CARD 48 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1096,7 +1144,7 @@
         </div>
 
         <!-- CARD 49 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1113,7 +1161,7 @@
         </div>
 
         <!-- CARD 50 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1130,7 +1178,7 @@
         </div>
 
         <!-- CARD 51 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1147,7 +1195,7 @@
         </div>
 
         <!-- CARD 52 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1164,7 +1212,7 @@
         </div>
 
         <!-- CARD 53 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1181,7 +1229,7 @@
         </div>
 
         <!-- CARD 54 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1198,7 +1246,7 @@
         </div>
 
         <!-- CARD 55 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1215,7 +1263,7 @@
         </div>
 
         <!-- CARD 56 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1232,7 +1280,7 @@
         </div>
 
         <!-- CARD 57 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1249,7 +1297,7 @@
         </div>
 
         <!-- CARD 58 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1266,7 +1314,7 @@
         </div>
 
         <!-- CARD 59 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1283,7 +1331,7 @@
         </div>
 
         <!-- CARD 60 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1300,7 +1348,7 @@
         </div>
 
         <!-- CARD 61 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1317,7 +1365,7 @@
         </div>
 
         <!-- CARD 62 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1334,7 +1382,7 @@
         </div>
 
         <!-- CARD 63 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1351,7 +1399,7 @@
         </div>
 
         <!-- CARD 64 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1368,7 +1416,7 @@
         </div>
 
         <!-- CARD 65 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1385,7 +1433,7 @@
         </div>
 
         <!-- CARD 66 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1402,7 +1450,7 @@
         </div>
 
         <!-- CARD 67 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">
@@ -1419,7 +1467,7 @@
         </div>
 
         <!-- CARD 68 -->
-        <div class="col-md-5 col-lg-2 text-center mb-4">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
           <div class="contain" ontouchstart="this.classList.toggle('hover');">
             <div class="front1" style="background-color: #FF9100;">
               <div class="inner1">

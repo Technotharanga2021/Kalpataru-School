@@ -10224,3 +10224,42 @@ Work Area CSS
   background-color: #FF9100 !important; /* background when hovered/clicked */
   color: #fff !important;              /* white text */
 }
+
+
+/* new */
+
+/* Wrap container */
+.filter-controls {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Scroll buttons */
+.scroll-btn {
+  background: #fff;
+  border: none;
+  color: #ff2c57;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.scroll-btn:hover {
+  background: #ff2c57;
+  color: #fff;
+}
+
+/* Position left and right buttons slightly outside */
+.scroll-btn.left {
+  margin-right: 5px;
+}
+
+.scroll-btn.right {
+  margin-left: 5px;
+}

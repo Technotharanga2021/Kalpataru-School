@@ -34,25 +34,29 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
   <style>
- .img-hero {
-  width: 100%;
-  height: 450px;          /* fallback for desktops */
-  object-fit: cover;      /* ensures image covers area without distortion */
-  object-position: center;
-}
+    .img-hero {
+      width: 100%;
+      height: 450px;
+      /* fallback for desktops */
+      object-fit: cover;
+      /* ensures image covers area without distortion */
+      object-position: center;
+    }
 
-@media (max-width: 768px) {
-  .img-hero {
-    height: 300px;        /* smaller height for tablets */
-  }
-}
+    @media (max-width: 768px) {
+      .img-hero {
+        height: 300px;
+        /* smaller height for tablets */
+      }
+    }
 
-@media (max-width: 576px) {
-  .img-hero {
-    height: 200px;        /* smaller height for mobile */
-  }
+    @media (max-width: 576px) {
+      .img-hero {
+        height: 200px;
+        /* smaller height for mobile */
+      }
 
-}
+    }
   </style>
 </head>
 
@@ -66,13 +70,14 @@
       </a>
 
       <!-- Toggler for Mobile -->
-      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <!-- Navbar Links -->
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ml-auto font-weight-bold text-center text-lg-left">
+        <div class="navbar-nav ms-auto font-weight-bold text-center text-lg-left">
           <a href="index.html" class="nav-item nav-link">Home</a>
           <a href="about.html" class="nav-item nav-link">About KCS</a>
           <a href="Alumni.html" class="nav-item nav-link">Alumni</a>
@@ -109,13 +114,13 @@
 
 
   <!-- new -->
-<div class="container-fluid hero-about position-relative p-0">
-  <img src="img/feee.jpg" class="img-hero w-100" alt="Hero Image">
+  <div class="container-fluid hero-about position-relative p-0">
+    <img src="img/feee.jpg" class="img-hero w-100" alt="Hero Image">
 
-  <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
-    <!-- <h1 class="display-3 font-weight-bold text-white text-center">Fees</h1> -->
+    <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+      <!-- <h1 class="display-3 font-weight-bold text-white text-center">Fees</h1> -->
+    </div>
   </div>
-</div>
 
   <section id="fee-structure" class="py-5"
     style="background: linear-gradient(to right,rgba(254, 157, 1, 0.763),rgba(254, 157, 1, 0.1));">

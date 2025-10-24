@@ -1,208 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Kalpataru Central School | Public Disclosure</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="description" content="Access mandatory public disclosure information for Kalpataru Central School, including CBSE affiliation, staff details, and infrastructure.">
-    <meta name="keywords" content="Public Disclosure KCS, CBSE School Documents, CBSE Affiliation, Mandatory Disclosure, Kalpataru Transparency">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Kalpataru Central School | Public Disclosure</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description"
+    content="Access mandatory public disclosure information for Kalpataru Central School, including CBSE affiliation, staff details, and infrastructure.">
+  <meta name="keywords"
+    content="Public Disclosure KCS, CBSE School Documents, CBSE Affiliation, Mandatory Disclosure, Kalpataru Transparency">
 
 
-    <!-- Favicon -->
-    <link href="img/logo bg.png" rel="icon" />
+  <!-- Favicon -->
+  <link href="img/logo bg.png" rel="icon" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet" />
 
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
 
-    <!-- Flaticon Font -->
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+  <!-- Flaticon Font -->
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/stylek.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <style>
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/stylek.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <style>
+    .img-hero {
+      width: 100%;
+      height: 450px;
+      /* default desktop height */
+      object-fit: cover;
+      /* covers the container without distortion */
+      object-position: center;
+    }
+
+    @media (max-width: 768px) {
       .img-hero {
-  width: 100%;
-  height: 450px;        /* default desktop height */
-  object-fit: cover;    /* covers the container without distortion */
-  object-position: center;
-}
+        height: 350px;
+        /* tablet height */
+      }
+    }
 
-@media (max-width: 768px) {
-  .img-hero {
-    height: 350px;      /* tablet height */
-  }
-}
+    @media (max-width: 576px) {
+      .img-hero {
+        height: 250px;
+        /* mobile height */
+      }
+    }
 
-@media (max-width: 576px) {
-  .img-hero {
-    height: 250px;      /* mobile height */
-  }
-}
+    /* Public Disclosure Cards Styles */
+    .public-disclosure-container {
+      padding: 40px 15px;
+      background-color: #f8f9fa;
+      /* max-width: 1200px; */
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
 
-/* Public Disclosure Cards Styles */
-.public-disclosure-container {
-  padding: 40px 15px;
-  background-color: #f8f9fa;
-  /* max-width: 1200px; */
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-}
+    .public-disclosure-title {
+      grid-column: 1 / -1;
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 600;
+      font-size: 2rem;
+      color: #333;
+    }
 
-.public-disclosure-title {
-  grid-column: 1 / -1;
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: 600;
-  font-size: 2rem;
-  color: #333;
-}
+    .pdf-card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      padding: 20px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      min-height: 240px;
+      /* fixed min height */
+      transition: box-shadow 0.3s ease;
+    }
 
-.pdf-card {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border-radius: 12px;
-  padding: 20px;
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  min-height: 240px; /* fixed min height */
-  transition: box-shadow 0.3s ease;
-}
+    .pdf-card:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
 
-.pdf-card:hover {
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
+    .pdf-title {
+      font-weight: 600;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      color: #333;
+      word-break: break-word;
+      flex-grow: 1;
+      /* take available space */
+    }
 
-.pdf-title {
-  font-weight: 600;
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin-bottom: 20px;
-  font-size: 1.1rem;
-  color: #333;
-  word-break: break-word;
-  flex-grow: 1; /* take available space */
-}
+    .pdf-icon {
+      width: 24px;
+      height: 24px;
+      fill: #E42D2D;
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
 
-.pdf-icon {
-  width: 24px;
-  height: 24px;
-  fill: #E42D2D;
-  flex-shrink: 0;
-  margin-top: 3px;
-}
+    .btn-group {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-top: auto;
+      /* push buttons to bottom */
+    }
 
-.btn-group {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  margin-top: auto; /* push buttons to bottom */
-}
+    .btn {
+      flex: 1;
+      white-space: nowrap;
+      padding: 10px 15px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      background-color: #007bff;
+    }
 
-.btn {
-  flex: 1;
-  white-space: nowrap;
-  padding: 10px 15px;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  background-color: #007bff;
-}
+    .btn:hover {
+      background-color: #0056b3;
+    }
 
-.btn:hover {
-  background-color: #0056b3;
-}
+    .btn.view-btn {
+      background-color: #28a745;
+    }
 
-.btn.view-btn {
-  background-color: #28a745;
-}
+    .btn.view-btn:hover {
+      background-color: #1e7e34;
+    }
 
-.btn.view-btn:hover {
-  background-color: #1e7e34;
-}
-@media (max-width: 576px) {
-  .btn-group {
-    flex-direction: column;
-  }
-  .btn {
-    flex: unset;
-    width: 100%;
-  }
-}
-</style>
+    @media (max-width: 576px) {
+      .btn-group {
+        flex-direction: column;
+      }
 
-  </head>
+      .btn {
+        flex: unset;
+        width: 100%;
+      }
+    }
+  </style>
 
-  <body>
-   
-     <!-- Navbar Start -->
+</head>
+
+<body>
+
+  <!-- Navbar Start -->
   <div class="container-fluid bg-light position-relative shadow px-4">
-  <nav class="navbar navbar-expand-lg navbar-light py-3">
-    <!-- Logo -->
-    <a href="#" class="navbar-brand">
-      <img src="img/logo_full1- bg.png" alt="Logo" class="img-fluid" style="max-width: 300px;">
-    </a>
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <!-- Logo -->
+      <a href="#" class="navbar-brand">
+        <img src="img/logo_full1- bg.png" alt="Logo" class="img-fluid" style="max-width: 300px;">
+      </a>
 
-    <!-- Toggler for Mobile -->
-    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Toggler for Mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Navbar Links -->
+      <!-- Navbar Links -->
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ml-auto font-weight-bold text-center text-lg-left">
+        <div class="navbar-nav ms-auto font-weight-bold text-center text-lg-left">
           <a href="index.html" class="nav-item nav-link">Home</a>
           <a href="about.html" class="nav-item nav-link">About KCS</a>
           <a href="Alumni.html" class="nav-item nav-link">Alumni</a>
           <!-- Events dropdown -->
-            <div class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="eventsDropdown" role="button" 
-              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
-                <div class="dropdown-menu" aria-labelledby="eventsDropdown">
-                  <a class="dropdown-item" href="April.html">April</a>
-                  <a class="dropdown-item" href="May.html">May</a>
-                  <a class="dropdown-item" href="June.html">June</a>
-                  <a class="dropdown-item" href="July.html">July</a>
-                  <a class="dropdown-item" href="August.html">August</a>
-                  <a class="dropdown-item" href="Septmeber.html">September</a>
-                  <a class="dropdown-item" href="">October</a>
-                  <a class="dropdown-item" href="">November</a>
-                  <a class="dropdown-item" href="">December</a>
-                  <a class="dropdown-item" href="">January</a>
-                  <a class="dropdown-item" href="">February</a>
-                  <a class="dropdown-item" href="">March</a>
-                </div>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="eventsDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Events</a>
+            <div class="dropdown-menu" aria-labelledby="eventsDropdown">
+              <a class="dropdown-item" href="April.html">April</a>
+              <a class="dropdown-item" href="May.html">May</a>
+              <a class="dropdown-item" href="June.html">June</a>
+              <a class="dropdown-item" href="July.html">July</a>
+              <a class="dropdown-item" href="August.html">August</a>
+              <a class="dropdown-item" href="Septmeber.html">September</a>
+              <a class="dropdown-item" href="">October</a>
+              <a class="dropdown-item" href="">November</a>
+              <a class="dropdown-item" href="">December</a>
+              <a class="dropdown-item" href="">January</a>
+              <a class="dropdown-item" href="">February</a>
+              <a class="dropdown-item" href="">March</a>
             </div>
+          </div>
           <a href="academics.html" class="nav-item nav-link">Academics</a>
           <a href="faculty.html" class="nav-item nav-link">Faculty</a>
           <a href="fees.html" class="nav-item nav-link">Fee Structure</a>
@@ -215,224 +218,289 @@
   </div>
   <!-- navbar end -->
 
-    <!-- Header Start -->
-<div class="container-fluid hero-about position-relative p-0">
-  <img src="img/public1.jpg" class="img-hero w-100" alt="Public Disclosure">
+  <!-- Header Start -->
+  <div class="container-fluid hero-about position-relative p-0">
+    <img src="img/public1.jpg" class="img-hero w-100" alt="Public Disclosure">
 
-  <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column align-items-center justify-content-center">
-    <!-- You can add text here if needed -->
-  </div>
-</div>
-    <!-- Header End -->
-    <section class="public-disclosure-container " style="background: linear-gradient(to left, rgba(254, 157, 1, 0.763), rgba(254, 157, 1, 0.1));">
-  <h2 class="public-disclosure-title">Public Disclosure Documents</h2>
-
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Self-Certification of the School
-    </div>
-    <div class="btn-group">
-      <a href="pdfs/self certification.pdf" target="_blank" class="btn view-btn" aria-label="View Self-Certification of the School">View</a>
-      <a href="pdfs/self certification.pdf" download class="btn" aria-label="Download Self-Certification of the School">Download</a>
+    <div
+      class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+      <!-- You can add text here if needed -->
     </div>
   </div>
+  <!-- Header End -->
+  <section class="public-disclosure-container "
+    style="background: linear-gradient(to left, rgba(254, 157, 1, 0.763), rgba(254, 157, 1, 0.1));">
+    <h2 class="public-disclosure-title">Public Disclosure Documents</h2>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Mandatory Public Disclosure
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Self-Certification of the School
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/self certification.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Self-Certification of the School">View</a>
+        <a href="pdfs/self certification.pdf" download class="btn"
+          aria-label="Download Self-Certification of the School">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/Mandatory Public Disclosure Link.pdf" target="_blank" class="btn view-btn" aria-label="View Mandatory Public Disclosure">View</a>
-      <a href="pdfs/Mandatory Public Disclosure Link.pdf" download class="btn" aria-label="Download Mandatory Public Disclosure">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Certificate of Land
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Mandatory Public Disclosure
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/Mandatory Public Disclosure Link.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Mandatory Public Disclosure">View</a>
+        <a href="pdfs/Mandatory Public Disclosure Link.pdf" download class="btn"
+          aria-label="Download Mandatory Public Disclosure">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/Land Certificte.pdf" target="_blank" class="btn view-btn" aria-label="View Certificate of Land">View</a>
-      <a href="pdfs/Land Certificte.pdf" download class="btn" aria-label="Download Certificate of Land">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Extension of Affiliation Letter
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Certificate of Land
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/Land Certificte.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Certificate of Land">View</a>
+        <a href="pdfs/Land Certificte.pdf" download class="btn" aria-label="Download Certificate of Land">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/AFFILIATION LETTER.pdf" target="_blank" class="btn view-btn" aria-label="View Extension of Affiliation Letter">View</a>
-      <a href="pdfs/AFFILIATION LETTER.pdf" download class="btn" aria-label="Download Extension of Affiliation Letter">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Society Registration Certificate and Renewal Certificate
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Extension of Affiliation Letter
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/AFFILIATION LETTER.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Extension of Affiliation Letter">View</a>
+        <a href="pdfs/AFFILIATION LETTER.pdf" download class="btn"
+          aria-label="Download Extension of Affiliation Letter">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/Certificate of Registration.pdf" target="_blank" class="btn view-btn" aria-label="View Society Registration Certificate and Renewal Certificate">View</a>
-      <a href="pdfs/Certificate of Registration.pdf" download class="btn" aria-label="Download Society Registration Certificate and Renewal Certificate">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      No Objection Certificate
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Society Registration Certificate and Renewal Certificate
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/Certificate of Registration.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Society Registration Certificate and Renewal Certificate">View</a>
+        <a href="pdfs/Certificate of Registration.pdf" download class="btn"
+          aria-label="Download Society Registration Certificate and Renewal Certificate">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/NOC.pdf" target="_blank" class="btn view-btn" aria-label="View No Objection Certificate">View</a>
-      <a href="pdfs/NOC.pdf" download class="btn" aria-label="Download No Objection Certificate">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Recognition Certificate Under RTE Act 2009
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        No Objection Certificate
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/NOC.pdf" target="_blank" class="btn view-btn" aria-label="View No Objection Certificate">View</a>
+        <a href="pdfs/NOC.pdf" download class="btn" aria-label="Download No Objection Certificate">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/Recognition Certificate.pdf" target="_blank" class="btn view-btn" aria-label="View Recognition Certificate Under RTE Act 2009">View</a>
-      <a href="pdfs/Recognition Certificate.pdf" download class="btn" aria-label="Download Recognition Certificate Under RTE Act 2009">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Building Safety Certificate
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Recognition Certificate Under RTE Act 2009
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/Recognition Certificate.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Recognition Certificate Under RTE Act 2009">View</a>
+        <a href="pdfs/Recognition Certificate.pdf" download class="btn"
+          aria-label="Download Recognition Certificate Under RTE Act 2009">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/BUILDING SAFETY CERTIFICATE.pdf" target="_blank" class="btn view-btn" aria-label="View Building Safety Certificate">View</a>
-      <a href="pdfs/BUILDING SAFETY CERTIFICATE.pdf" download class="btn" aria-label="Download Building Safety Certificate">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Fire Safety Certificate
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Building Safety Certificate
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/BUILDING SAFETY CERTIFICATE.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Building Safety Certificate">View</a>
+        <a href="pdfs/BUILDING SAFETY CERTIFICATE.pdf" download class="btn"
+          aria-label="Download Building Safety Certificate">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/COMPLIANCE CERTIFICATEFIRE.pdf" target="_blank" class="btn view-btn" aria-label="View Fire Safety Certificate">View</a>
-      <a href="pdfs/COMPLIANCE CERTIFICATEFIRE.pdf" download class="btn" aria-label="Download Fire Safety Certificate">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Water, Health and Sanitation Certificate
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Fire Safety Certificate
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/COMPLIANCE CERTIFICATEFIRE.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Fire Safety Certificate">View</a>
+        <a href="pdfs/COMPLIANCE CERTIFICATEFIRE.pdf" download class="btn"
+          aria-label="Download Fire Safety Certificate">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/Safe Drinking & Sanitary Condition certificate.pdf" target="_blank" class="btn view-btn" aria-label="View Water, Health and Sanitation Certificate">View</a>
-      <a href="pdfs/Safe Drinking & Sanitary Condition certificate.pdf" download class="btn" aria-label="Download Water, Health and Sanitation Certificate">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Fee Structure of the School
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Water, Health and Sanitation Certificate
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/Safe Drinking & Sanitary Condition certificate.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Water, Health and Sanitation Certificate">View</a>
+        <a href="pdfs/Safe Drinking & Sanitary Condition certificate.pdf" download class="btn"
+          aria-label="Download Water, Health and Sanitation Certificate">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/FEE STRUCTURE.pdf" target="_blank" class="btn view-btn" aria-label="View Fee Structure of the School">View</a>
-      <a href="pdfs/FEE STRUCTURE.pdf" download class="btn" aria-label="Download Fee Structure of the School">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Annual Academic Calendar
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Fee Structure of the School
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/FEE STRUCTURE.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Fee Structure of the School">View</a>
+        <a href="pdfs/FEE STRUCTURE.pdf" download class="btn"
+          aria-label="Download Fee Structure of the School">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/Annual Academic Calendar.pdf" target="_blank" class="btn view-btn" aria-label="View Annual Academic Calendar">View</a>
-      <a href="pdfs/Annual Academic Calendar.pdf" download class="btn" aria-label="Download Annual Academic Calendar">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Teachers details with qualification
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Annual Academic Calendar
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/Annual Academic Calendar.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Annual Academic Calendar">View</a>
+        <a href="pdfs/Annual Academic Calendar.pdf" download class="btn"
+          aria-label="Download Annual Academic Calendar">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/Teachers List 2025-26.pdf" target="_blank" class="btn view-btn" aria-label="View Teachers details with qualification">View</a>
-      <a href="pdfs/Teachers List 2025-26.pdf" download class="btn" aria-label="Download Teachers details with qualification">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      School Management Committee
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Teachers details with qualification
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/Teachers List 2025-26.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Teachers details with qualification">View</a>
+        <a href="pdfs/Teachers List 2025-26.pdf" download class="btn"
+          aria-label="Download Teachers details with qualification">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/School Management Committee .pdf" target="_blank" class="btn view-btn" aria-label="View School Management Committee">View</a>
-      <a href="pdfs/School Management Committee .pdf" download class="btn" aria-label="Download School Management Committee">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      List of Parent Teachers Association
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        School Management Committee
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/School Management Committee .pdf" target="_blank" class="btn view-btn"
+          aria-label="View School Management Committee">View</a>
+        <a href="pdfs/School Management Committee .pdf" download class="btn"
+          aria-label="Download School Management Committee">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/Parent - Teacher association .pdf" target="_blank" class="btn view-btn" aria-label="View List of Parent Teachers Association">View</a>
-      <a href="pdfs/Parent - Teacher association .pdf" download class="btn" aria-label="Download List of Parent Teachers Association">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Last 3 years Result of Board Examination
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        List of Parent Teachers Association
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/Parent - Teacher association .pdf" target="_blank" class="btn view-btn"
+          aria-label="View List of Parent Teachers Association">View</a>
+        <a href="pdfs/Parent - Teacher association .pdf" download class="btn"
+          aria-label="Download List of Parent Teachers Association">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/3 Years X Standard Result.pdf" target="_blank" class="btn view-btn" aria-label="View Last 3 years Result of Board Examination">View</a>
-      <a href="pdfs/3 Years X Standard Result.pdf" download class="btn" aria-label="Download Last 3 years Result of Board Examination">Download</a>
-    </div>
-  </div>
 
-  <div class="pdf-card">
-    <div class="pdf-title">
-      <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z"/></svg>
-      Curriculum
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Last 3 years Result of Board Examination
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/3 Years X Standard Result.pdf" target="_blank" class="btn view-btn"
+          aria-label="View Last 3 years Result of Board Examination">View</a>
+        <a href="pdfs/3 Years X Standard Result.pdf" download class="btn"
+          aria-label="Download Last 3 years Result of Board Examination">Download</a>
+      </div>
     </div>
-    <div class="btn-group">
-      <a href="pdfs/Curriculum.pdf" target="_blank" class="btn view-btn" aria-label="View Curriculum">View</a>
-      <a href="pdfs/Curriculum.pdf" download class="btn" aria-label="Download Curriculum">Download</a>
+
+    <div class="pdf-card">
+      <div class="pdf-title">
+        <svg class="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5l-5-5.5z" />
+        </svg>
+        Curriculum
+      </div>
+      <div class="btn-group">
+        <a href="pdfs/Curriculum.pdf" target="_blank" class="btn view-btn" aria-label="View Curriculum">View</a>
+        <a href="pdfs/Curriculum.pdf" download class="btn" aria-label="Download Curriculum">Download</a>
+      </div>
     </div>
-  </div>
 
-  <!-- Add more pdf-card divs for other documents here -->
-  
-    </section>
+    <!-- Add more pdf-card divs for other documents here -->
 
-   
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+  </section>
+
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
     <div class="row pt-5">
       <div class="col-lg-3 col-md-6 mb-5 ">
         <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 px-5"
           style="font-size: 40px; line-height: 40px">
           <img src="img/logo2.jpg" width="100%" alt="logo">
           <!-- <span class="text-white">KidKinder</span> -->
-           
+
 
         </a>
         <p>
           <img src="img/name.jpg" width="100%" alt="school name">
-          
+
         </p>
         <div class="d-flex justify-content-start mt-4">
           <a class="btn1 rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px; color: #FF9100;"
@@ -452,7 +520,7 @@
           <div class="pl-3">
             <!-- <h5 class="" style="color: #FF9100;">Address</h5> -->
             <p>Kalpataru Central School, <br> Vidyanagar, B. H. Road,<br>
-            Tiptur, Karnataka-572201,<br> INDIA</p>
+              Tiptur, Karnataka-572201,<br> INDIA</p>
           </div>
         </div>
         <div class="d-flex">
@@ -467,7 +535,7 @@
           <div class="pl-3">
             <!-- <h5 class="text-white">Phone</h5> -->
             <p>principal :+91 9008647062 </p>
-           <p> Office :08134-253504</p>
+            <p> Office :08134-253504</p>
           </div>
         </div>
       </div>
@@ -494,32 +562,29 @@
       </p>
     </div>
   </div>
-  
-    <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary p-3 back-to-top"
-      ><i class="fa fa-angle-double-up"></i
-    ></a>
+  <!-- Footer End -->
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

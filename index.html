@@ -37,7 +37,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
 </head>
 
@@ -51,35 +51,36 @@
       </a>
 
       <!-- Toggler for Mobile -->
-      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <!-- Navbar Links -->
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ml-auto font-weight-bold text-center text-lg-left">
+        <div class="navbar-nav ms-auto font-weight-bold text-center text-lg-left">
           <a href="index.html" class="nav-item nav-link active">Home</a>
           <a href="about.html" class="nav-item nav-link">About KCS</a>
           <a href="Alumni.html" class="nav-item nav-link">Alumni</a>
           <!-- Events dropdown -->
-            <div class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="eventsDropdown" role="button" 
-              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
-                <div class="dropdown-menu" aria-labelledby="eventsDropdown">
-                  <a class="dropdown-item" href="April.html">April</a>
-                  <a class="dropdown-item" href="May.html">May</a>
-                  <a class="dropdown-item" href="June.html">June</a>
-                  <a class="dropdown-item" href="July.html">July</a>
-                  <a class="dropdown-item" href="August.html">August</a>
-                  <a class="dropdown-item" href="Septmeber.html">September</a>
-                  <a class="dropdown-item" href="">October</a>
-                  <a class="dropdown-item" href="">November</a>
-                  <a class="dropdown-item" href="">December</a>
-                  <a class="dropdown-item" href="">January</a>
-                  <a class="dropdown-item" href="">February</a>
-                  <a class="dropdown-item" href="">March</a>
-                </div>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="eventsDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Events</a>
+            <div class="dropdown-menu" aria-labelledby="eventsDropdown">
+              <a class="dropdown-item" href="April.html">April</a>
+              <a class="dropdown-item" href="May.html">May</a>
+              <a class="dropdown-item" href="June.html">June</a>
+              <a class="dropdown-item" href="July.html">July</a>
+              <a class="dropdown-item" href="August.html">August</a>
+              <a class="dropdown-item" href="Septmeber.html">September</a>
+              <a class="dropdown-item" href="">October</a>
+              <a class="dropdown-item" href="">November</a>
+              <a class="dropdown-item" href="">December</a>
+              <a class="dropdown-item" href="">January</a>
+              <a class="dropdown-item" href="">February</a>
+              <a class="dropdown-item" href="">March</a>
             </div>
+          </div>
           <a href="academics.html" class="nav-item nav-link">Academics</a>
           <a href="faculty.html" class="nav-item nav-link">Faculty</a>
           <a href="fees.html" class="nav-item nav-link">Fee Structure</a>
@@ -196,111 +197,117 @@
   </div>
 
 
-<!-- Our Office Bearers Section -->
-<div class="container-fluid pt-5" style="background-color: #fff3e0;">
-  <div class="container">
-    <!-- Section Title -->
-    <div class="text-center pb-4" data-aos="fade-down" data-aos-duration="1000">
-      <h2 class="mb-4" style="color: #FF9100;"><b>Our Office Bearers</b></h2>
-    </div>
-
-    <!-- Members Row -->
-    <div class="row justify-content-center row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4">
-      <!-- President -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri P.K. Thipperudrappa President.jpeg" alt="President" />
-        </div>
-        <h5 class="mb-1">P K Thipperudrappa</h5>
-        <p class="text-muted">President</p>
+  <!-- Our Office Bearers Section -->
+  <div class="container-fluid pt-5" style="background-color: #fff3e0;">
+    <div class="container">
+      <!-- Section Title -->
+      <div class="text-center pb-4" data-aos="fade-down" data-aos-duration="1000">
+        <h2 class="mb-4" style="color: #FF9100;"><b>Our Office Bearers</b></h2>
       </div>
 
-      <!-- Vice President -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri B.S. Umesh Vice President.jpeg" alt="Vice President" />
+      <!-- Members Row -->
+      <div class="row justify-content-center row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4">
+        <!-- President -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm" src="img/Sri P.K. Thipperudrappa President.jpeg" alt="President" />
+          </div>
+          <h5 class="mb-1">P K Thipperudrappa</h5>
+          <p class="text-muted">President</p>
         </div>
-        <h5 class="mb-1">B S Umesh</h5>
-        <p class="text-muted">Vice President</p>
-      </div>
 
-      <!-- Secretary -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri M.R. Sangamesh Secretary.jpeg" alt="Secretary" />
+        <!-- Vice President -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm" src="img/Sri B.S. Umesh Vice President.jpeg"
+              alt="Vice President" />
+          </div>
+          <h5 class="mb-1">B S Umesh</h5>
+          <p class="text-muted">Vice President</p>
         </div>
-        <h5 class="mb-1">M R Sangamesh</h5>
-        <p class="text-muted">Secretary</p>
-      </div>
 
-      <!-- Treasurer -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri T.S. Shivaprasad Treasurer.jpg" alt="Treasurer" />
+        <!-- Secretary -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm" src="img/Sri M.R. Sangamesh Secretary.jpeg" alt="Secretary" />
+          </div>
+          <h5 class="mb-1">M R Sangamesh</h5>
+          <p class="text-muted">Secretary</p>
         </div>
-        <h5 class="mb-1">T S Shivaprasad</h5>
-        <p class="text-muted">Treasurer</p>
-      </div>
 
-      <!-- Vice President -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri Bagepalli              Nataraj         Vice President2.jpg" alt="Vice President" />
+        <!-- Treasurer -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm" src="img/Sri T.S. Shivaprasad Treasurer.jpg" alt="Treasurer" />
+          </div>
+          <h5 class="mb-1">T S Shivaprasad</h5>
+          <p class="text-muted">Treasurer</p>
         </div>
-        <h5 class="mb-1">B S Nataraj</h5>
-        <p class="text-muted">Vice President</p>
-      </div>
 
-      <!-- Vice President -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri T.S.           Basavaraju             Vice President3.jpeg" alt="Vice President" />
+        <!-- Vice President -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm"
+              src="img/Sri Bagepalli              Nataraj         Vice President2.jpg" alt="Vice President" />
+          </div>
+          <h5 class="mb-1">B S Nataraj</h5>
+          <p class="text-muted">Vice President</p>
         </div>
-        <h5 class="mb-1">T S Basavaraju</h5>
-        <p class="text-muted">Vice President</p>
-      </div>
 
-      <!-- Vice President -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri G.P. Deepak Vice President4.jpg" alt="Vice President" />
+        <!-- Vice President -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm"
+              src="img/Sri T.S.           Basavaraju             Vice President3.jpeg" alt="Vice President" />
+          </div>
+          <h5 class="mb-1">T S Basavaraju</h5>
+          <p class="text-muted">Vice President</p>
         </div>
-        <h5 class="mb-1">G P Deepak</h5>
-        <p class="text-muted">Vice President</p>
-      </div>
 
-      <!-- Secretary -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri T.U.Jagadeeshmurthy                      Secretary3.jpeg" alt="Secretary" />
+        <!-- Vice President -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm" src="img/Sri G.P. Deepak Vice President4.jpg"
+              alt="Vice President" />
+          </div>
+          <h5 class="mb-1">G P Deepak</h5>
+          <p class="text-muted">Vice President</p>
         </div>
-        <h5 class="mb-1">T U Jagadeeshmurthy</h5>
-        <p class="text-muted">Secretary</p>
-      </div>
 
-      <!-- Secretary -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri G.S. Umashankar         Secretary2.jpg" alt="Secretary" />
+        <!-- Secretary -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm"
+              src="img/Sri T.U.Jagadeeshmurthy                      Secretary3.jpeg" alt="Secretary" />
+          </div>
+          <h5 class="mb-1">T U Jagadeeshmurthy</h5>
+          <p class="text-muted">Secretary</p>
         </div>
-        <h5 class="mb-1">G S Umashankar</h5>
-        <p class="text-muted">Secretary</p>
-      </div>
 
-      <!-- Secretary -->
-      <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
-        <div class="image-container mb-3">
-          <img class="img-fluid rounded shadow-sm" src="img/Sri H.G. Sudhakar Secretary1.jpeg" alt="Secretary" />
+        <!-- Secretary -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm" src="img/Sri G.S. Umashankar         Secretary2.jpg"
+              alt="Secretary" />
+          </div>
+          <h5 class="mb-1">G S Umashankar</h5>
+          <p class="text-muted">Secretary</p>
         </div>
-        <h5 class="mb-1">H G Sudhakar</h5>
-        <p class="text-muted">Secretary</p>
+
+        <!-- Secretary -->
+        <div class="col office-card text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+          <div class="image-container mb-3">
+            <img class="img-fluid rounded shadow-sm" src="img/Sri H.G. Sudhakar Secretary1.jpeg" alt="Secretary" />
+          </div>
+          <h5 class="mb-1">H G Sudhakar</h5>
+          <p class="text-muted">Secretary</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <!-- Team End -->
-   
+
   <!-- Message from the Principal Section -->
   <div class="container-fluid py-5 "
     style="background: linear-gradient(to right, rgba(224, 155, 42, 0.763), rgba(254,157,1,0.1));">
@@ -349,143 +356,145 @@
   <!-- latest -->
   <div class="container-fluid pt-4"
     style="background: linear-gradient(to top, rgba(254,157,1,0.763), rgba(254,157,1,0.1));">
-  <div class="container">
-    <div class="text-center pb-2">
-      <h2 class="mb-1" style="color: #FF9100;"><b>Latest Events and Activities</b></h2>
-    </div>
-
-    <!-- Swiper Start -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-
-        <!-- Slide 1 -->
-        <div class="swiper-slide">
-          <div class="card border-0 shadow-sm h-100">
-            <img src="img/ambedkar.jpg" class="card-img-top" alt="Farewell">
-            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
-              <h4>Ambedkar Jayanthi</h4>
-              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                On 14<sup>th</sup>April – Ambedkar Jayanthi was celebrated in the school assembly. Students
-                of Grade 9 and 10 were present on the occasion.
-              </div>
-              <a href="April.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="swiper-slide">
-          <div class="card border-0 shadow-sm h-100">
-            <img src="img/SCHOOL REOPNES 26TH MAY/IMG_1136.webp" class="card-img-top" alt="Republic Day">
-            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
-              <h4>School reopened for the academic year 2025-26</h4>
-              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                On 26<sup>th</sup> May – School reopened for the academic year 2025-26 with a total strength
-                of 1495 students with 776 girls and 719 boys including the new
-                admission. Total Teaching Staff comprises of 68 members with 51
-                lady teachers and 17 gents teachers and non-teaching staff with 23
-                ladies and 15 gents.
-                Grade 1 kids were received by the teachers with a pencil as a small
-                token of love for every student.
-              </div>
-              <a href="May.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="swiper-slide">
-          <div class="card border-0 shadow-sm h-100">
-            <img src="img/ENVIRONMENT DAY/IMG_1294.webp" class="card-img-top" alt="Counselling">
-            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
-              <h4>World Environment Day</h4>
-              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-               On 5<sup>th</sup> June – World Environment Day was celebrated in the school assembly. Chief Guest was
-               Mr B V Gundappa, An Environmentalist, Lecturer in Biology, C S Pura, Gubbi
-               Taluk. He gave a talk on the conservation of environment. Hon’ble KVS office
-               bearers were present on the occasion.
-              </div>
-              <a href="June.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 4 -->
-        <div class="swiper-slide">
-          <div class="card border-0 shadow-sm h-100">
-            <img src="img/PTA/IMG_2738.webp" class="card-img-top" alt="Farewell">
-            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
-              <h4>Parent Teacher Association Meeting</h4>
-              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-               On 18<sup>th</sup> July – The Parent Teacher Association Meeting was convened at 4 PM in the AV Room
-               with the members of the Committee. All major issues concerning academics, non-
-               academic matters were discussed. All nominated parent members were present and
-               they gave some valuable suggestions in the meeting.
-              </div>
-              <a href="July.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 5 -->
-        <div class="swiper-slide">
-          <div class="card border-0 shadow-sm h-100">
-            <img src="img/INDEPENDENCE DAY/IMG_3078.webp" class="card-img-top" alt="Republic Day">
-            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
-              <h4>Independence Day celebration</h4>
-              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-               On 15<sup>th</sup> Aug - Independence Day was celebrated in the school and in the Kalpataru Grounds with
-               lot of zeal and enthusiasm. <br>
-               About 260 high school students participated in the Taluk Level Patriotic Dance
-               Competition at the Kalpataru Stadium &amp; bagged the first prize.
-               Our School Troop (Boys) bagged 2 nd prize in the March-Past Competition.
-              </div>
-              <a href="August.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 6 -->
-        <div class="swiper-slide">
-          <div class="card border-0 shadow-sm h-100">
-            <img src="img/DEBATE/IMG_3031.webp" class="card-img-top" alt="Counselling">
-            <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
-              <h4> Verbattle Speech Competition Finals</h4>
-              <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
-                On 3<sup>rd</sup> Sept – The students showcased their excellent speaking skill standing tall against the
-                well-known and reputed schools at the Verbattle Speech Competition Finals held in
-                Bengaluru. They have made the school proud by bagging 2 nd and 3 rd prize in both
-                Kannada and English Speech Competitions.
-                English Speech Competition:
-                Aryan Prakash 2 nd Prize
-                Varsha Patel 3 rd Prize
-                Kannada Speech Competition:
-                Kaveri M 2 nd Prize
-                Harshil S Hadimani 3 rd Prize.
-              </div>
-              <a href="Septmeber.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
-            </div>
-          </div>
-        </div>
-
+    <div class="container">
+      <div class="text-center pb-2">
+        <h2 class="mb-1" style="color: #FF9100;"><b>Latest Events and Activities</b></h2>
       </div>
-      <!-- Swiper Buttons -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <!-- Swiper End -->
+
+      <!-- Swiper Start -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/ambedkar.jpg" class="card-img-top" alt="Farewell">
+              <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+                <h4>Ambedkar Jayanthi</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  On 14<sup>th</sup>April – Ambedkar Jayanthi was celebrated in the school assembly. Students
+                  of Grade 9 and 10 were present on the occasion.
+                </div>
+                <a href="April.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/SCHOOL REOPNES 26TH MAY/IMG_1136.webp" class="card-img-top" alt="Republic Day">
+              <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+                <h4>School reopened for the academic year 2025-26</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  On 26<sup>th</sup> May – School reopened for the academic year 2025-26 with a total strength
+                  of 1495 students with 776 girls and 719 boys including the new
+                  admission. Total Teaching Staff comprises of 68 members with 51
+                  lady teachers and 17 gents teachers and non-teaching staff with 23
+                  ladies and 15 gents.
+                  Grade 1 kids were received by the teachers with a pencil as a small
+                  token of love for every student.
+                </div>
+                <a href="May.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/ENVIRONMENT DAY/IMG_1294.webp" class="card-img-top" alt="Counselling">
+              <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+                <h4>World Environment Day</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  On 5<sup>th</sup> June – World Environment Day was celebrated in the school assembly. Chief Guest was
+                  Mr B V Gundappa, An Environmentalist, Lecturer in Biology, C S Pura, Gubbi
+                  Taluk. He gave a talk on the conservation of environment. Hon’ble KVS office
+                  bearers were present on the occasion.
+                </div>
+                <a href="June.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/PTA/IMG_2738.webp" class="card-img-top" alt="Farewell">
+              <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+                <h4>Parent Teacher Association Meeting</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  On 18<sup>th</sup> July – The Parent Teacher Association Meeting was convened at 4 PM in the AV Room
+                  with the members of the Committee. All major issues concerning academics, non-
+                  academic matters were discussed. All nominated parent members were present and
+                  they gave some valuable suggestions in the meeting.
+                </div>
+                <a href="July.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/INDEPENDENCE DAY/IMG_3078.webp" class="card-img-top" alt="Republic Day">
+              <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+                <h4>Independence Day celebration</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  On 15<sup>th</sup> Aug - Independence Day was celebrated in the school and in the Kalpataru Grounds
+                  with
+                  lot of zeal and enthusiasm. <br>
+                  About 260 high school students participated in the Taluk Level Patriotic Dance
+                  Competition at the Kalpataru Stadium &amp; bagged the first prize.
+                  Our School Troop (Boys) bagged 2 nd prize in the March-Past Competition.
+                </div>
+                <a href="August.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="img/DEBATE/IMG_3031.webp" class="card-img-top" alt="Counselling">
+              <div class="card-body bg-light text-center d-flex flex-column p-4" style="min-height: 320px;">
+                <h4> Verbattle Speech Competition Finals</h4>
+                <div class="text-muted overflow-auto" style="max-height: 150px; text-align: left;">
+                  On 3<sup>rd</sup> Sept – The students showcased their excellent speaking skill standing tall against
+                  the
+                  well-known and reputed schools at the Verbattle Speech Competition Finals held in
+                  Bengaluru. They have made the school proud by bagging 2 nd and 3 rd prize in both
+                  Kannada and English Speech Competitions.
+                  English Speech Competition:
+                  Aryan Prakash 2 nd Prize
+                  Varsha Patel 3 rd Prize
+                  Kannada Speech Competition:
+                  Kaveri M 2 nd Prize
+                  Harshil S Hadimani 3 rd Prize.
+                </div>
+                <a href="Septmeber.html" class="btn btn-primary mt-auto py-2 px-4 mx-auto">Load More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Swiper Buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Swiper End -->
+      </div>
     </div>
   </div>
-</div>
 
 
-<style>
-  @media (max-width: 576px) {
-    .card-body .btn {
-      width: 100%;
-      text-align: center;
+  <style>
+    @media (max-width: 576px) {
+      .card-body .btn {
+        width: 100%;
+        text-align: center;
+      }
     }
-  }
-</style>
+  </style>
 
   <!-- Footer Start -->
   <div class="container-fluid bg-dark text-white mt-0 py-5 px-sm-3 px-md-5">
@@ -520,7 +529,7 @@
           <div class="pl-3">
             <!-- <h5 class="" style="color: #FF9100;">Address</h5> -->
             <p>Kalpataru Central School, <br> Vidyanagar, B. H. Road,<br>
-            Tiptur, Karnataka-572201,<br> INDIA</p>
+              Tiptur, Karnataka-572201,<br> INDIA</p>
           </div>
         </div>
         <div class="d-flex">
@@ -535,7 +544,7 @@
           <div class="pl-3">
             <!-- <h5 class="text-white">Phone</h5> -->
             <p>principal :+91 9008647062 </p>
-             <p> Office :08134-253504</p>
+            <p> Office :08134-253504</p>
           </div>
         </div>
       </div>
@@ -574,28 +583,29 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"></script>
 
-      <!-- Other libraries -->
+    <!-- Other libraries -->
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-<!-- Required jQuery plugins -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-appear/0.4.1/jquery.appear.js"></script>
+    <!-- Required jQuery plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-appear/0.4.1/jquery.appear.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
 
-    
+
     <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    
+
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -603,8 +613,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-  AOS.init();
-</script>
+      AOS.init();
+    </script>
 
     <script>
       var swiper = new Swiper(".mySwiper", {
@@ -636,7 +646,7 @@
       });
     </script>
 
-   
+
 
 </body>
 
